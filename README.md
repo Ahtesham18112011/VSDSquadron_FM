@@ -11,5 +11,13 @@ The first section of the verilog code says.
 
 3. **testwire**  it is connected to bit 5 of the frequency counter
 
+### Internal component Analysis
+The module has three main internal components:-
+
+1. **Internal Oscillator** It generates a internal clock signal
+
+2. **Frequency counter** It has 28-bit register. Increments on every positive edge of int_osc. bit 5 is routed to the testwire 
+
+3. **RGB led driver** It allows the frequency of red and green led the lowest and blue led the highest. it sets all the leds to the lowest.
 
 
