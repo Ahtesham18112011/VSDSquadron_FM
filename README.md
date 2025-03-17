@@ -5,9 +5,11 @@ This is the link of the verilog code for the glowing of blue led in a RGB led pr
   <summary>Click to expand/collapse</summary>
 The first section of the verilog code says. 
   
-1. led_red,led_blue,led_green  These are the output wires that controls the clors of RGB led which carries output of logic 1 or 0
+1. **led_red,led_blue,led_green**  These are the output wires that controls the clors of RGB led which carries output of logic 1 or 0
 
-2. hw_clk  It is a clock that provides clock signals to the module"s timing.
+2. **hw_clk**  It is a clock that provides clock signals to the module"s timing.
 
-3. testwire  it is connected to bit 5  of the frequency counter
+3. **testwire**  it is connected to bit 5 of the frequency counter
+
+
 
