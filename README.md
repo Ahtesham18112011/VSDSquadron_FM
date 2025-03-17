@@ -3,5 +3,4 @@
 This is the link of the verilog code for the glowing of blue led in a RGB led present in the FPGA board. [top.v](https://github.com/thesourcerer8/VSDSquadron_FM/blob/main/led_blue/top.v). 
 <details>
   <summary>Click to expand/collapse</summary>
-  ![image](https://github.com/user-attachments/assets/4c5d79a8-8a29-4728-8ef2-437ee0fb7386)
-
+ https://private-user-images.githubusercontent.com/163879237/415531917-7a82694b-1b5f-4ad3-bd6b-34b755812aed.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDIxOTc0MzAsIm5iZiI6MTc0MjE5NzEzMCwicGF0aCI6Ii8xNjM4NzkyMzcvNDE1NTMxOTE3LTdhODI2OTRiLTFiNWYtNGFkMy1iZDZiLTM0Yjc1NTgxMmFlZC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMzE3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDMxN1QwNzM4NTBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0wN2MyYzE5ZTVmZDdkYjNjNTVhZGI2OGUyMzc4MjEyZTY2ZDdkNzEzZDdiMzg3YjI3ZDA4ODVjOTliYTAyODdhJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9._Jtt2wZNBjWev_wxOV1Wc3Rov2ABHLd3Ny7CJBPZ76U
