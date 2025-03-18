@@ -58,7 +58,7 @@ RGB2PWM = 1'b1 : Blue LED maximum brightness
 
 #### Purpose of the verilog code
 
-   This verilog code for the FM allows it to glow a blue light in the RGB led in a controlled manner.
+This verilog code for the FM allows it to glow a blue light in the RGB led in a controlled manner.  It provides a stable internal clock source, It provides a complete solution for RGB LED control with built-in timing and test capabilities
 
    **RGB LED driver functionality**
 
@@ -117,6 +117,10 @@ Follow the given [Datasheet](https://github.com/Ahtesham18112011/VSDSquadron_FM/
 #### Final result
 
 <img src="https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/main/WhatsApp%20Image%202025-03-18%20at%209.52.28%20PM.jpeg" alt="Description" width="500"/>.
+
+## Challenges faced during the above process
+* Face difficulty in connecting board: the USB-C cable was needed to connect. And connection between FTDI and the USB was also important
+* Difficulty in the software Ubuntu: You can download the Oracle Virtual box from its official website and follow the steps given in the datasheet to download the Ubuntu software.
 
 
 
