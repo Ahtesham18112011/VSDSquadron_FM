@@ -1,6 +1,6 @@
 # FPGA board internship by Ahtesham Ahmed
 
-#### How to run a profect in the FPGA board?
+#### How to run a project in the FPGA board?
 Follow the steps to run a project:
 
 1. Navigate the specific folder
