@@ -5,19 +5,19 @@ Follow the steps to run a project:
 
 1. Navigate the specific folder
 
-cd (project-folder)
+`cd (project-folder)`
 
 2. Build the binaries
 
-make build
+`make build`
 
 3. Flash the code to external SRAM
 
-sudo make flash
+`sudo make flash`
 
 4. to clean
 
-make clean
+`make clean`
 
 # Task 1
 ## Implementing verilog code on FM
