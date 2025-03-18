@@ -81,6 +81,9 @@ The module has three main internal components:-
 
   **5. set_io hw_clk 17** This command helps the logical signal from FPGA to reach thr pin number 17.
 
+## Step 3: Integrating with the VSDSquadron FPGA Mini Board
+According to the given datasheet
+
 
   
 
