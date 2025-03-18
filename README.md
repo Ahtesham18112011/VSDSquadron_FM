@@ -84,9 +84,19 @@ The module has three main internal components:-
 ## Step 3: Integrating with the VSDSquadron FPGA Mini Board
 According to the given datasheet. [Datasheet](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/32ddb8c8ebc921e2051795b4388bbc49cba8ce46/VSDSquadronFMDatasheet.pdf). We need to do the following steps to implement the given verilog code in the FM:
 
-1. Connect the board with the computer/laptop with a c type USB cable as described in the datasheet. Ensuring the FTDI connection.
+1. Connect the board with the computer/laptop with a c type USB cable as described in the datasheet. Ensuring the FTDI connection. and type thecommand `lsusb`.
 
-2. Make one more file which is called a Makefile.
+2. Make one more file which is called a Makefile.[Makefile](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/16f3657047eebb2d53e02e451deed799442105de/Makefile.txt).
+
+3. Go to the software Ubuntu and in the terminal locate the file where you have made your PCF file,Verilog file and the Makefile. by pressing `cd <name of file>`
+
+4. Ensure that there are no previous builds if there are then type `make clean`.
+
+5. Then type `make build`
+
+6. Then type `sudo make flash` to program the FPGA. It will take some time.
+
+7. When after this process you will see the blue LED glowing in the RGB LED.
 
 
   
