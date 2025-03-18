@@ -50,7 +50,7 @@ The module has three main internal components:-
 
 3. **RGB led driver** It allows the frequency of red and green led the lowest and blue led the highest. it sets all the leds to the lowest.
 
-   **Purpose**
+#### Purpose of the verilog code
 
    This verilog code for the FM allows it to glow a blue light in the RGB led in a controlled manner.
 
