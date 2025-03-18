@@ -3,7 +3,23 @@
 #### How to run a profect in the FPGA board?
 Follow the steps to run a project:
 
-cd <(project-folder)
+1. Navigate the specific folder
+
+cd (project-folder)
+
+2. Build the binaries
+
+make build
+
+3. Flash the code to external SRAM
+
+sudo make flash
+
+4. to clean
+
+make clean
+
+
 
 
 ## Understanding the verilog code
