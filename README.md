@@ -22,7 +22,7 @@ make clean
 
 
 
-## Understanding the verilog code
+## Step 1: Understanding the verilog code
 This is the link of the verilog code for the glowing of blue led in a RGB led present in the FPGA board. [top.v](https://github.com/Ahtesham18112011/VSDSquadron_FM/commit/c6511d8ea1d69d50770b938977da7150673a1d7a). 
 <details>
   <summary>Module Analysis</summary>
@@ -57,6 +57,9 @@ The module has three main internal components:-
 * Current controllled output with minimum current setting.
 * Blue LED at maximum brightness.
 * Red and green at minimum brightness.
+
+  ## Step 2: Creating the PCF File
+  This is the PCF file.  
    
 
    
