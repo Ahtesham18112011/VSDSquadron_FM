@@ -54,7 +54,9 @@ The module has three main internal components:-
 
    The RGB LED driver manages the LED outputs
 
-   * current controllled output with minimum current setting
+* Current controllled output with minimum current setting.
+* Blue LED at maximum brightness.
+* Red and green at minimum brightness.
    
 
    
