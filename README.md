@@ -72,11 +72,20 @@ The module has three main internal components:-
   
   ![Alt text](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/4c1fb02926e5bf45039a506dc6d4420e4a2aef06/Screenshot%20(88).png).
 
-  **1. set_io led_red 39**: This command helps the logical signal from FPGA to reach the pin number 39(which glows red led)
+  **1. set_io led_red 39**: This command helps the logical signal from FPGA to reach the pin number 39(which glows red led).
 
-  **2. set_io led_blue 40**: This command helps the logical signal from FPGA to reach thr pin number 40(which glows blue)
+  **2. set_io led_blue 40**: This command helps the logical signal from FPGA to reach thr pin number 40(which glows blue).
 
-  **3. set_io led_green 41**: 
+  **3. set_io led_green 41**: This command helps the logical signal from FPGA to reach thr pin number 41(which glows green).
+
+  **4. set_io hw_clk 20** This command helps the logical signal from FPGA to reach thr pin number 20.
+
+  **5. set_io hw_clk 17** This command helps the logical signal from FPGA to reach thr pin number 17.
+
+
+  
+
+  
   
    
 
