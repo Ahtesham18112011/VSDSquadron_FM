@@ -20,8 +20,7 @@ sudo make flash
 make clean
 
 # Task 1
-<details>
-  <summary>Understanding and implementing verilog code on FM</summary>
+## Implementing verilog code on FM
 
 
 
