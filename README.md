@@ -43,7 +43,7 @@ The first section of the verilog code says.
 #### Internal component Analysis
 The module has three main internal components:-
 
-1. **Internal Oscillator** It generates a internal clock signal
+1. **Internal Oscillator(SB_HFOSC)** It generates a internal clock signal
 
 2. **Frequency counter** It has 28-bit register. Increments on every positive edge of int_osc. bit 5 is routed to the testwire 
 
