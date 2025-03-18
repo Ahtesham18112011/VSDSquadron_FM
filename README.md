@@ -5,7 +5,7 @@ Follow the steps to run a project:
 
 1. Navigate the specific folder
 
-`cd (project-folder)`
+`cd <project-folder>`
 
 2. Build the binaries
 
