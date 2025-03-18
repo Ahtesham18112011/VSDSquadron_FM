@@ -29,7 +29,7 @@ make clean
 
 ### Step 1: Understanding the verilog code
 This is the link of the verilog code for the glowing of blue led in a RGB led present in the FPGA board. [top.v](https://github.com/Ahtesham18112011/VSDSquadron_FM/commit/c6511d8ea1d69d50770b938977da7150673a1d7a). 
-Module Analysis:
+**Module Analysis:**
   
   ![Alt text](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/a1070567667933317187255c10d645236658f859/Screenshot%20(87).png).
   
@@ -68,9 +68,8 @@ The module has three main internal components:-
   ## Step 2: Creating the PCF File
   This is the PCF file. [VSDSquadronFM.pcf](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/e42b59be2d586c9407dcfc91577753fcdb8994a9/VSDSquadronFM.pcf). A PCF(Physical Constraint File) is a file which is used to instruct the FPGA to where it have to send the output, for example in this case of RGB LED the PCF file is used to instruct the FPGA to the RGB LED pins.
 
-  <details>
-  <summary>Analysis of Connections of the PCF file</summary>
-  
+  **Analysis of the connection of the PCF file**:
+  ![Alt text](URL-to-your-image)
   
    
 
