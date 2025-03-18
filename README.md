@@ -3,7 +3,7 @@
 #### How to run a profect in the FPGA board?
 Follow the steps to run a project:
 
-cd <project-folder>
+cd <(project-folder)
 
 
 ## Understanding the verilog code
