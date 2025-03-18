@@ -59,7 +59,7 @@ The module has three main internal components:-
 * Red and green at minimum brightness.
 
   ## Step 2: Creating the PCF File
-  This is the PCF file.  
+  This is the PCF file. [VSDSquadronFM.pcf](
    
 
    
