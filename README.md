@@ -105,6 +105,8 @@ According to the given datasheet. [Datasheet](https://github.com/Ahtesham1811201
 
 7. When after this process you will see the blue LED glowing in the RGB LED.
 
+  <img src="https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/main/WhatsApp%20Image%202025-03-18%20at%209.52.28%20PM.jpeg" alt="Description" width="500"/>
+
 ## Step 4: Final documentation
 The given verilog code tells the three inputs of the RGB led with some internal and external devices like internal high-frequency oscillator and 28-bit frequency counter. The counter's bit 5 is routed to a testwire for monitoring. The RGB LED driver (SB_RGBA_DRV) provides current-controlled PWM outputs with a fixed configuration: blue at maximum brightness, red and green at minimum.
 
