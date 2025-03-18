@@ -63,6 +63,8 @@ The module has three main internal components:-
 
   <details>
   <summary>Analysis of Connections of the PCF file</summary>
+  ![Alt text](https://github.com/user-attachments/assets/529095cf-cdb1-4bb6-9d66-4ebb2c4c9eb7).
+
   
    
 
