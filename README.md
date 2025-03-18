@@ -1,4 +1,4 @@
-# Programming in the FPGA board by Ahtesham Ahmed
+# FPGA board internship by Ahtesham Ahmed
 
 #### How to run a profect in the FPGA board?
 Follow the steps to run a project:
@@ -79,7 +79,7 @@ The module has three main internal components:-
 
   **4. set_io hw_clk 20** This command helps the logical signal from FPGA to reach thr pin number 20.
 
-  **5. set_io hw_clk 17** This command helps the logical signal from FPGA to reach thr pin number 17.
+  **5. set_io testwire 17** This command helps the logical signal from FPGA to reach thr pin number 17.
 
 ## Step 3: Integrating with the VSDSquadron FPGA Mini Board
 According to the given datasheet. [Datasheet](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/32ddb8c8ebc921e2051795b4388bbc49cba8ce46/VSDSquadronFMDatasheet.pdf). We need to do the following steps to implement the given verilog code in the FM:
@@ -97,6 +97,15 @@ According to the given datasheet. [Datasheet](https://github.com/Ahtesham1811201
 6. Then type `sudo make flash` to program the FPGA. It will take some time.
 
 7. When after this process you will see the blue LED glowing in the RGB LED.
+
+## Step 4: Final documentation
+The given verilog code tells the three inputs of the RGB led with some internal and external devices like internal high-frequency oscillator and 28-bit frequency counter. The counter's bit 5 is routed to a testwire for monitoring. The RGB LED driver (SB_RGBA_DRV) provides current-controlled PWM outputs with a fixed configuration: blue at maximum brightness, red and green at minimum.
+
+**PCF file**
+The [VSDSquadronFM.pcf](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/e42b59be2d586c9407dcfc91577753fcdb8994a9/VSDSquadronFM.pcf) is the file which contains the pin mapping of where the HDL code hhave to be gone. It is very important because it contains the details of where the code is to be gone. In the given PCF file codes of LED red,blue and green are connected to the pin 39,40 and 41 and the clock to pin 20 and lastly the code for testwire to the pin 17. 
+
+**Implementing verilog code**
+Follow the given [Datasheet](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/32ddb8c8ebc921e2051795b4388bbc49cba8ce46/VSDSquadronFMDatasheet.pdf). and connect the board to the computer and then go to the terminal and type `cd document name>` then `make build` and lastly `sudo make flash`. After the process you will see a blue light glowing on the RGB LED.
 
 
   
