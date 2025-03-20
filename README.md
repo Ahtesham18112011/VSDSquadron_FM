@@ -49,14 +49,19 @@ The module has three main internal components:-
 
 1. **Internal Oscillator(SB_HFOSC)** It generates a internal clock signal. Control Signals:
 CLKHFPU = 1'b1 : Enables power-up
+
 CLKHFEN = 1'b1 : Enables oscillator
+
 CLKHF : Output connected to internal int_osc signal
 
-2. **Frequency counter** It has 28-bit register. Increments on every positive edge of int_osc. bit 5 is routed to the testwire 
+3. **Frequency counter** It has 28-bit register. Increments on every positive edge of int_osc. bit 5 is routed to the testwire 
 
-3. **RGB led driver** It allows the frequency of red and green led the lowest and blue led the highest. it sets all the leds to the lowest. RGBLEDEN = 1'b1 : Enables LED operation
+4. **RGB led driver** It allows the frequency of red and green led the lowest and blue led the highest. it sets all the leds to the lowest. RGBLEDEN = 1'b1 : Enables LED operation
+   
 RGB0PWM = 1'b0 : Red LED minimum brightness
+
 RGB1PWM = 1'b0 : Green LED minimum brightness
+
 RGB2PWM = 1'b1 : Blue LED maximum brightness
 
 #### Purpose of the verilog code
