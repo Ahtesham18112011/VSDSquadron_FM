@@ -71,8 +71,8 @@ This verilog code for the FM allows it to glow a blue light in the RGB led in a 
    The RGB LED driver manages the LED outputs
 
 * Current controllled output with minimum current setting.
-* Blue LED at maximum brightness.
-* Red and green at minimum brightness.
+* Enables Blue LED at maximum brightness.
+* And Red and green at minimum brightness.
 
 
  
