@@ -50,9 +50,7 @@ The module has three main internal components:-
 1. **Internal Oscillator(SB_HFOSC)** It generates a internal clock signal. Control Signals:
    
 *    CLKHFPU = 1'b1 : Enables power-up
-
 *    CLKHFEN = 1'b1 : Enables oscillator
-
 *    CLKHF : Output connected to internal int_osc signal
 
 3. **Frequency counter** It has 28-bit register. Increments on every positive edge of int_osc. bit 5 is routed to the testwire.
@@ -99,7 +97,9 @@ This verilog code for the FM allows it to glow a blue light in the RGB led in a 
 ## Step 3: Integrating with the VSDSquadron FPGA Mini Board
 According to the given datasheet. [Datasheet](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/32ddb8c8ebc921e2051795b4388bbc49cba8ce46/VSDSquadronFMDatasheet.pdf). We need to do the following steps to implement the given verilog code in the FM:
 
-1. Connect the board with the computer/laptop with a c type USB cable as described in the datasheet. Ensuring the FTDI connection. and type thecommand `lsusb`.
+1. Connect the board with the computer/laptop with a c type USB cable as described in the datasheet. Ensuring the FTDI connection. and type thecommand ```
+lsusb
+```.
 
 2. Make one more file which is called a Makefile.[Makefile](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/16f3657047eebb2d53e02e451deed799442105de/Makefile.txt).
 
