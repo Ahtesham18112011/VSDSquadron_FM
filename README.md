@@ -59,13 +59,13 @@ The module has three main internal components:-
 
 4. **RGB led driver** It allows the frequency of red and green led the lowest and blue led the highest. it sets all the leds to the lowest.
 
-     RGBLEDEN = 1'b1 : Enables LED operation
+*    RGBLEDEN = 1'b1 : Enables LED operation
    
-     RGB0PWM = 1'b0 : Red LED minimum brightness
+*     RGB0PWM = 1'b0 : Red LED minimum brightness
 
-     RGB1PWM = 1'b0 : Green LED minimum brightness
+*     RGB1PWM = 1'b0 : Green LED minimum brightness
 
-     RGB2PWM = 1'b1 : Blue LED maximum brightness
+*     RGB2PWM = 1'b1 : Blue LED maximum brightness
 
 #### Purpose of the verilog code
 
