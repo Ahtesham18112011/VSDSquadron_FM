@@ -97,7 +97,7 @@ This verilog code for the FM allows it to glow a blue light in the RGB led in a 
 
  
 
-  ## Step 2: Creating the PCF File
+  ### Step 2: Creating the PCF File
   
   This is the PCF file. [VSDSquadronFM.pcf](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/e42b59be2d586c9407dcfc91577753fcdb8994a9/VSDSquadronFM.pcf). A PCF(Physical Constraint File) is a file which is used to instruct the FPGA to where it have to send the output, for example in this case of RGB LED the PCF file is used to instruct the FPGA to the RGB LED pins.
 
@@ -123,7 +123,7 @@ This verilog code for the FM allows it to glow a blue light in the RGB led in a 
 
   
 
-## Step 3: Integrating with the VSDSquadron FPGA Mini Board
+### Step 3: Integrating with the VSDSquadron FPGA Mini Board
 
 The [Datasheet](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/32ddb8c8ebc921e2051795b4388bbc49cba8ce46/VSDSquadronFMDatasheet.pdf) provide  details about the FPGA chip, SPI Flash Memory,USB to Serial converter etc. It also provides the steps to program the FPGA board, it explains all detail  about the FPGA board very clearly.
 
@@ -150,7 +150,7 @@ According to the given [Datasheet](https://github.com/Ahtesham18112011/VSDSquadr
 
   </details>
 
-## Step 4: Final documentation
+### Step 4: Final documentation
 The given verilog code tells the three inputs of the RGB led with some internal and external devices like internal high-frequency oscillator and 28-bit frequency counter. The counter's bit 5 is routed to a testwire for monitoring. The RGB LED driver (SB_RGBA_DRV) provides current-controlled outputs with a fixed configuration: blue at maximum brightness, red and green at minimum.
 
 **PCF file**
