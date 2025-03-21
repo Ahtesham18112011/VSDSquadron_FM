@@ -153,7 +153,7 @@ Follow the given [Datasheet](https://github.com/Ahtesham18112011/VSDSquadron_FM/
 <img src="https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/main/WhatsApp%20Image%202025-03-18%20at%209.52.28%20PM.jpeg" alt="Description" width="500"/>.
 
 ## Challenges faced during the above process
-* Face difficulty in connecting board: the USB-C cable was needed to connect. And connection between FTDI and the USB was also important
+* Face difficulty in connecting board: the USB-C cable was needed to connect. And connection between FTDI and the USB was also important,
 * Difficulty in the software Ubuntu: You can download the Oracle Virtual box from its official website and follow the steps given in the datasheet to download the Ubuntu software.
 
 
