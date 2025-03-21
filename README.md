@@ -73,6 +73,8 @@ The module has three main internal components:-
   
      RGB2PWM = 1'b1 : Blue LED maximum brightness, as described in the given verilog: 1'b1. In 1'b1 it is clearly seen that it is a binary, unsigned, 1-bit wide integral value.
 
+   It also allows the current to flow equally which is "0b000001" to RGB0(red), RGB1(green), RGB2(blue)
+
      ![Alt text](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/03bf86577080c878397fa207beafe230e47a3c23/Screenshot%20(95).png).
 
 
@@ -84,9 +86,10 @@ This verilog code for the FM allows it to glow a blue light in the RGB led in a 
 
    The RGB LED driver manages the LED outputs
 
-* Current controllled output with minimum current setting.
-* Enables Blue LED at maximum brightness.
-* And Red and green at minimum brightness.
+* Current controllled output with minimum current setting ("0b000001").
+* Enables Blue LED at maximum brightness (1'b1).
+* And Red and green at minimum brightness (1'b0).
+* PWM (Pulse Width Modulation) control for each color.
 
 
  
