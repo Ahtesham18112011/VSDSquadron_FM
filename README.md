@@ -104,6 +104,8 @@ This verilog code for the FM allows it to glow a blue light in the RGB led in a 
  <details>
   <summary>Analysis of the connection of the PCF file</summary> 
 
+  
+
 
   **1. set_io led_red 39**: This command helps the logical signal from FPGA to reach the pin number 39 which is one of the three input pins of thr RGB LED(which glows red led).
 
