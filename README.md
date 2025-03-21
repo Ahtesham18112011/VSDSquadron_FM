@@ -52,9 +52,9 @@ The module has three main internal components:-
 
 1. **Internal Oscillator(SB_HFOSC)** It generates a internal clock signal. Control Signals:
    
-*    CLKHFPU = 1'b1 : Enables power-up
-*    CLKHFEN = 1'b1 : Enables oscillator
-*    CLKHF : Output connected to internal int_osc signal
+*    CLKHFPU = 1'b1 
+*    CLKHFEN = 1'b1 
+*    CLKHF (int_oscillator)
 
 3. **Frequency counter** It has 28-bit register. Increments on every positive edge of int_osc. bit 5 is routed to the testwire.
 
