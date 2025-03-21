@@ -42,7 +42,9 @@ The first section of the verilog code says.
 
 2. **hw_clk**  It is a clock that provides clock signals to the module"s timing. It is the Hardware oscillator not the internal oscillator.
 
-3. **testwire**  it is connected to bit 5 of the frequency counter
+3. **testwire**  it is connected to bit 5 of the frequency counter as described below
+    ![Alt text](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/a1070567667933317187255c10d645236658f859/Screenshot%20(87).png).
+  
 
 #### Internal component Analysis
 The module has three main internal components:-
