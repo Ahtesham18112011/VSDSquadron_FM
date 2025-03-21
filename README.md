@@ -38,7 +38,7 @@ This task is divided into **four steps** or parts.
 ### Step 1: Understanding the verilog code
 This is the link of the verilog code for the glowing of blue led in a RGB led present in the FPGA board. [top.v](https://github.com/Ahtesham18112011/VSDSquadron_FM/commit/c6511d8ea1d69d50770b938977da7150673a1d7a). 
 
-<details>
+<dThis is created by Ahtesham>
   <summary>Analysis of the verilog code</summary>
   
 
