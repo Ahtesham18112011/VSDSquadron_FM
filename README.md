@@ -33,7 +33,7 @@ Follow the steps to run a project:
 This is the link of the verilog code for the glowing of blue led in a RGB led present in the FPGA board. [top.v](https://github.com/Ahtesham18112011/VSDSquadron_FM/commit/c6511d8ea1d69d50770b938977da7150673a1d7a). 
 
 <details>
-  <summary>Module Analysis</summary>
+  <summary>Analysis of the verilog code</summary>
   
 
  ![Alt text](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/a1070567667933317187255c10d645236658f859/Screenshot%20(87).png).
