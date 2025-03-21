@@ -107,7 +107,7 @@ This verilog code for the FM allows it to glow a blue light in the RGB led in a 
 
   **5. set_io testwire 17** This command helps the logical signal from FPGA to reach the pin number 17.
 
-  <img src="https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/010ff4b0db3c8e0d270005114f78691f9bb029af/WhatsApp%20Image%202025-03-21%20at%202.38.37%20PM.jpeg" alt="Description" width="500"/>.
+  <img src="https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/010ff4b0db3c8e0d270005114f78691f9bb029af/WhatsApp%20Image%202025-03-21%20at%202.38.37%20PM.jpeg" alt="Description" width="400"/>.
 
   
 
