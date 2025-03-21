@@ -58,9 +58,11 @@ The module has three main internal components:-
 
      ![Alt text](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/b79a55e797b72e8e7fe28e90f05d9f9165e3a30f/Screenshot%20(90).png).
 
-3. **Frequency counter** It has 28-bit register. Increments on every positive edge of int_osc. bit 5 is routed to the testwire.
+3. **Frequency counter** It has 27-bit register because it is described as 'reg' in the verilog code, and reg means register. Increments on every positive edge of int_osc. bit 5 is routed to the testwire.
 
-4. **RGB led driver** It allows the frequency of red and green led the lowest and blue led the highest. it sets all the leds to the lowest.
+    ![Alt text]().
+
+5. **RGB led driver** It allows the frequency of red and green led the lowest and blue led the highest. it sets all the leds to the lowest.
 
      RGBLEDEN = 1'b1 : Enables LED operation
   
