@@ -107,6 +107,10 @@ This verilog code for the FM allows it to glow a blue light in the RGB led in a 
 
   **5. set_io testwire 17** This command helps the logical signal from FPGA to reach the pin number 17.
 
+  <img src="https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/main/WhatsApp%20Image%202025-03-18%20at%209.52.28%20PM.jpeg" alt="Description" width="500"/>.
+
+  
+
 ## Step 3: Integrating with the VSDSquadron FPGA Mini Board
 According to the given datasheet. [Datasheet](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/32ddb8c8ebc921e2051795b4388bbc49cba8ce46/VSDSquadronFMDatasheet.pdf). We need to do the following steps to implement the given verilog code in the FM:
 
