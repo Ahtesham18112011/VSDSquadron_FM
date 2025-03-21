@@ -25,9 +25,15 @@ Follow the steps to run a project:
 
 # Task 1: Understanding the verilog code, creating the necessary PCF file and implementing in VSDSquadron FM
 
+This task is divided into **four steps** or parts. 
 
+**Step 1**: Understanding the verilog code 
 
+**Step 2**: Creating the PCF File
 
+**Step 3**: Integrating with the VSDSquadron FPGA Mini Board
+
+**Step 4**: Final documentation
 
 ### Step 1: Understanding the verilog code
 This is the link of the verilog code for the glowing of blue led in a RGB led present in the FPGA board. [top.v](https://github.com/Ahtesham18112011/VSDSquadron_FM/commit/c6511d8ea1d69d50770b938977da7150673a1d7a). 
