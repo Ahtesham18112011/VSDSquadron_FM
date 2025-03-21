@@ -97,15 +97,15 @@ This verilog code for the FM allows it to glow a blue light in the RGB led in a 
   
 
 
-  **1. set_io led_red 39**: This command helps the logical signal from FPGA to reach the pin number 39(which glows red led).
+  **1. set_io led_red 39**: This command helps the logical signal from FPGA to reach the pin number 39 which is one of the three input pins of thr RGB LED(which glows red led).
 
-  **2. set_io led_blue 40**: This command helps the logical signal from FPGA to reach thr pin number 40(which glows blue).
+  **2. set_io led_blue 40**: This command helps the logical signal from FPGA to reach the pin number 40 which is one of the three input pins of thr RGB LED(which glows blue).
 
-  **3. set_io led_green 41**: This command helps the logical signal from FPGA to reach thr pin number 41(which glows green).
+  **3. set_io led_green 41**: This command helps the logical signal from FPGA to reach the pin number 41 which is one of the three input pins of thr RGB LED(which glows green).
 
-  **4. set_io hw_clk 20** This command helps the logical signal from FPGA to reach thr pin number 20.
+  **4. set_io hw_clk 20** This command helps the logical signal from FPGA to reach the pin number 20.
 
-  **5. set_io testwire 17** This command helps the logical signal from FPGA to reach thr pin number 17.
+  **5. set_io testwire 17** This command helps the logical signal from FPGA to reach the pin number 17.
 
 ## Step 3: Integrating with the VSDSquadron FPGA Mini Board
 According to the given datasheet. [Datasheet](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/32ddb8c8ebc921e2051795b4388bbc49cba8ce46/VSDSquadronFMDatasheet.pdf). We need to do the following steps to implement the given verilog code in the FM:
