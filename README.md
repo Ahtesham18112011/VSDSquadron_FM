@@ -72,7 +72,7 @@ The module has three main internal components:-
   
      RGB2PWM = 1'b1 : Blue LED maximum brightness
 
-     ![Alt text]().
+     ![Alt text](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/98ed4a73f5d73a55646366b0e36c4ee37f90c468/Screenshot%20(92).png).
 
 
 #### Purpose of the verilog code
