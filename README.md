@@ -7,19 +7,19 @@ The VSDSquadron FPGA(Field Programmable Gate Array) Mini (FM) is a compact and l
 #### How to run a project in the FPGA board?
 Follow the steps to run a project:
 
-1.Navigate the specific folder
+**1.Navigate the specific folder**
 
 ```cd <project-folder>```
 
-2.Build the binaries
+**2.Build the binaries**
 
 ```make build```
 
-3.Flash the code to external SRAM
+**3.Flash the code to external SRAM**
 
 ```sudo make flash```
 
-4.To clean
+4.**To clean**
 
 ```make clean```
 
