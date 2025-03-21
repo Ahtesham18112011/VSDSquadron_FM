@@ -56,6 +56,8 @@ The module has three main internal components:-
 *    CLKHFEN = 1'b1 
 *    CLKHF (int_oscillator)
 
+     ![Alt text](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/8ad84dd438e48a361c21e7749db66f1531c2e4f1/Screenshot%20(89).png).
+
 3. **Frequency counter** It has 28-bit register. Increments on every positive edge of int_osc. bit 5 is routed to the testwire.
 
 4. **RGB led driver** It allows the frequency of red and green led the lowest and blue led the highest. it sets all the leds to the lowest.
