@@ -73,7 +73,7 @@ The module has three main internal components:-
   
      RGB2PWM = 1'b1 : Blue LED maximum brightness, as described in the given verilog: 1'b1. In 1'b1 it is clearly seen that it is a binary, unsigned, 1-bit wide integral value.
 
-     ![Alt text](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/98ed4a73f5d73a55646366b0e36c4ee37f90c468/Screenshot%20(92).png).
+     ![Alt text](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/03bf86577080c878397fa207beafe230e47a3c23/Screenshot%20(95).png).
 
 
 #### Purpose of the verilog code
