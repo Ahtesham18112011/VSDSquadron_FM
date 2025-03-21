@@ -19,7 +19,7 @@ Follow the steps to run a project:
 
 ```sudo make flash```
 
-4. to clean
+4.To clean
 
 ```make clean```
 
