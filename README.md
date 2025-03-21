@@ -66,11 +66,11 @@ The module has three main internal components:-
 
      RGBLEDEN = 1'b1 : Enables LED operation
   
-     RGB0PWM = 1'b0 : Red LED minimum brightness
+     RGB0PWM = 1'b0 : Red LED minimum brightness, as described in the verilog: 1'b0. In 1'b0 it is clearly seen that it is 1 bit binary zero value.
   
-     RGB1PWM = 1'b0 : Green LED minimum brightness
+     RGB1PWM = 1'b0 : Green LED minimum brightness, as described in the given verilog: 1'b0. In 1'b0 it is clearly seen that it is 1 bit binary zero value.
   
-     RGB2PWM = 1'b1 : Blue LED maximum brightness
+     RGB2PWM = 1'b1 : Blue LED maximum brightness, as described in the given verilog: 1'b1. In 1'b1 it is clearly seen that it is a binary, unsigned, 1-bit wide integral value.
 
      ![Alt text](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/98ed4a73f5d73a55646366b0e36c4ee37f90c468/Screenshot%20(92).png).
 
