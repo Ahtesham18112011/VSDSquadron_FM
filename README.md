@@ -81,7 +81,7 @@ The module has three main internal components:-
 
 #### Purpose of the verilog code
 
-This verilog code for the FM allows it to glow a blue light in the RGB led in a controlled manner.  It provides a stable internal clock source, It provides a complete solution for RGB LED control with built-in timing and test capabilities
+This verilog code for the FM allows it to glow a blue light in the RGB led in a controlled manner.  It provides a stable internal clock source, It provides a complete solution for RGB LED control with built-in timing and test capabilities.
 
    **RGB LED driver functionality**
 
