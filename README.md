@@ -39,7 +39,7 @@ This task is divided into **four steps** or parts.
 This is the link of the verilog code for the glowing of blue led in a RGB led present in the FPGA board. [top.v](https://github.com/Ahtesham18112011/VSDSquadron_FM/commit/c6511d8ea1d69d50770b938977da7150673a1d7a). 
 
 <details>
-  <summary>Analysis of the verilog code</summary>
+  <summary>**Analysis of the verilog code**</summary>
   
 
  ![Alt text](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/a1070567667933317187255c10d645236658f859/Screenshot%20(87).png).
@@ -108,7 +108,7 @@ This verilog code for the FM allows it to glow a blue light in the RGB led in a 
   This is the PCF file. [VSDSquadronFM.pcf](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/e42b59be2d586c9407dcfc91577753fcdb8994a9/VSDSquadronFM.pcf). A PCF(Physical Constraint File) is a file which is used to instruct the FPGA to where it have to send the output, for example in this case of RGB LED the PCF file is used to instruct the FPGA to the RGB LED pins.
 
  <details>
-  <summary>Analysis of the connection of the PCF file</summary> 
+  <summary>**Analysis of the connection of the PCF file**</summary> 
 
   
 
@@ -134,7 +134,7 @@ This verilog code for the FM allows it to glow a blue light in the RGB led in a 
 The [Datasheet](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/32ddb8c8ebc921e2051795b4388bbc49cba8ce46/VSDSquadronFMDatasheet.pdf) provide  details about the FPGA chip, SPI Flash Memory,USB to Serial converter etc. It also provides the steps to program the FPGA board, it explains all detail  about the FPGA board very clearly.
 
 <details>
-  <summary>Implementation</summary> 
+  <summary>**Implementation in the FM**</summary> 
 
 According to the given [Datasheet](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/32ddb8c8ebc921e2051795b4388bbc49cba8ce46/VSDSquadronFMDatasheet.pdf). We need to do the following steps to implement the given verilog code in the FM:
 
