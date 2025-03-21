@@ -26,6 +26,22 @@ Follow the steps to run a project:
 # Task 1
 ## Implementing verilog code on FM
 
+<details>
+  <summary>Click to expand</summary>
+  
+  ## Heading 1
+  Content under heading 1.
+
+  ## Heading 2
+  Content under heading 2.
+
+  ## Heading 3
+  Content under heading 3.
+
+</details>
+
+
+
 
 
 
