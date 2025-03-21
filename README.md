@@ -156,7 +156,7 @@ According to the given [Datasheet](https://github.com/Ahtesham18112011/VSDSquadr
 
   </details>
 
-### Step 4: Final documentation
+### Step 4: Final documentation (Summary)
 The given verilog code tells the three inputs of the RGB led with some internal and external devices like internal high-frequency oscillator and 28-bit frequency counter. The counter's bit 5 is routed to a testwire for monitoring. The RGB LED driver (SB_RGBA_DRV) provides current-controlled outputs with a fixed configuration: blue at maximum brightness, red and green at minimum.
 
 **PCF file**
