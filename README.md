@@ -131,7 +131,7 @@ According to the given [Datasheet](https://github.com/Ahtesham18112011/VSDSquadr
 
 4. Ensure that there are no previous builds if there are then type `make clean`.
 
-5. Then type `make build`
+5. Then type `make build` to build the binaries.
 
 6. Then type `sudo make flash` to program the FPGA. It will take some time.
 
