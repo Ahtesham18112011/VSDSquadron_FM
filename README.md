@@ -100,8 +100,8 @@ This verilog code for the FM allows it to glow a blue light in the RGB led in a 
   ## Step 2: Creating the PCF File
   This is the PCF file. [VSDSquadronFM.pcf](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/e42b59be2d586c9407dcfc91577753fcdb8994a9/VSDSquadronFM.pcf). A PCF(Physical Constraint File) is a file which is used to instruct the FPGA to where it have to send the output, for example in this case of RGB LED the PCF file is used to instruct the FPGA to the RGB LED pins.
 
-  **Analysis of the connection of the PCF file**:
-  
+ <details>
+  <summary>Analysis of the connection of the PCF file</summary> 
 
 
   **1. set_io led_red 39**: This command helps the logical signal from FPGA to reach the pin number 39 which is one of the three input pins of thr RGB LED(which glows red led).
@@ -115,6 +115,8 @@ This verilog code for the FM allows it to glow a blue light in the RGB led in a 
   **5. set_io testwire 17** This command helps the logical signal from FPGA to reach the pin number 17.
 
   <img src="https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/010ff4b0db3c8e0d270005114f78691f9bb029af/WhatsApp%20Image%202025-03-21%20at%202.38.37%20PM.jpeg" alt="Description" width="400"/>.
+
+  </details>
 
   
 
