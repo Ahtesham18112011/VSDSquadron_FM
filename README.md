@@ -174,7 +174,11 @@ Follow the given [Datasheet](https://github.com/Ahtesham18112011/VSDSquadron_FM/
 * Difficulty in the software Ubuntu: You can download the Oracle Virtual box from its official website and follow the steps given in the datasheet to download the Ubuntu software.
 
 
-# Implementing a UART loopback mechanism on FM
+# Task2: Implementing a UART loopback mechanism on FM
+## What is a UART?
+UART, or Universal Asynchronous Receiver/Transmitter, is a hardware communication protocol that uses two wires (TX and RX) for transmitting and receiving serial data between devices, often used in embedded systems and microcontrollers. UART communication is asynchronous, meaning it doesn't rely on a shared clock signal between the sender and receiver. 
+
+### Step1: Studying the Existing code 
 
 
 
