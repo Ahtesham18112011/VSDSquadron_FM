@@ -178,7 +178,8 @@ Follow the given [Datasheet](https://github.com/Ahtesham18112011/VSDSquadron_FM/
 ## What is a UART?
 UART, or Universal Asynchronous Receiver/Transmitter, is a hardware communication protocol that uses two wires (TX and RX) for transmitting and receiving serial data between devices, often used in embedded systems and microcontrollers. UART communication is asynchronous, meaning it doesn't rely on a shared clock signal between the sender and receiver. 
 
-### Step1: Studying the Existing code 
+### Step 1: Studying the Existing code 
+The existing code for a uart_loopback mechanism can be found [here]().
 
 
 
