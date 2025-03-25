@@ -207,6 +207,21 @@ It generates a internal clock signal. configuration:
 
 In the Verilog code `assign uart_tx = uart_rx;`, the uart_tx signal is directly assigned the value of the uart_rx signal, effectively creating a loopback or echo where the transmitted data is immediately sent back to the receiver. 
 
+ ![Alt text](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/1f5ff319e70d4d97d32e51df3e53ebec60939948/Screenshot%20(96).png).
+
+ **RGB LED Driver**
+
+It allows the frequency of red and green led the lowest and blue led the highest. it sets all the leds to the lowest.
+
+RGBLEDEN = 1'b1 : Enables LED operation
+  
+RGB0PWM = 1'b0 : Red LED minimum brightness, as described in the verilog: 1'b0. In 1'b0 it is clearly seen that it is 1 bit binary zero value.
+  
+RGB1PWM = 1'b0 : Green LED minimum brightness, as described in the given verilog: 1'b0. In 1'b0 it is clearly seen that it is 1 bit binary zero value.
+  
+RGB2PWM = 1'b1 : Blue LED maximum brightness, as described in the given verilog: 1'b1. In 1'b1 it is clearly seen that it is a binary, unsigned, 1-bit wide integral value.
+
+ 
 
   
 
