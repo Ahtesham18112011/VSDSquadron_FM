@@ -165,11 +165,8 @@ The [Datasheet](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/32ddb8c8
 According to the given [Datasheet](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/32ddb8c8ebc921e2051795b4388bbc49cba8ce46/VSDSquadronFMDatasheet.pdf). We need to do the following steps to implement the given verilog code in the FM:
 
 
-> [!IMPORTANT]
 
-> Make sure you have the software Ubuntu downloaded before doing the below process.
-
-1. Connect the board with the computer/laptop with a c type USB cable as described in the datasheet. Ensuring the FTDI connection. and type the command ```lsusb```. After typing this commmand you will see ”Future Technology Devices International” text in the terminal, it means the FPGA board is connected.
+1. Connect the board with the computer/laptop with a c type USB cable as described in the datasheet. Ensuring the FTDI connection. and type the command ```lsusb``` in the terminal of software Ubuntu. After typing this commmand you will see ”Future Technology Devices International” text in the terminal, it means the FPGA board is connected.
 
 2. Make one more file which is called a Makefile.[Makefile](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/16f3657047eebb2d53e02e451deed799442105de/Makefile.txt).
 
@@ -182,6 +179,9 @@ According to the given [Datasheet](https://github.com/Ahtesham18112011/VSDSquadr
 6. Then type `sudo make flash` to program the FPGA. It will take some time.
 
 7. When after this process you will see the blue LED glowing in the RGB LED.
+
+> [!TIP]
+> Make sure you have downloaded the Ubuntu software. You can download it b Oracle Virtual box it does not take installing a new software.
 
   <img src="https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/main/WhatsApp%20Image%202025-03-18%20at%209.52.28%20PM.jpeg" alt="Description" width="500"/>
 
