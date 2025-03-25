@@ -203,7 +203,8 @@ It generates a internal clock signal. configuration:
 * Increments on every positive edge of int_osc.
 * Bit 5 is routed to the testwire.
 
-<span style="color: red;">This text is red.</span>
+**UART**
+In the Verilog code `assign uart_tx = uart_rx;`, the uart_tx signal is directly assigned the value of the uart_rx signal, effectively creating a loopback or echo where the transmitted data is immediately sent back to the receiver. 
 
 
   
