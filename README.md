@@ -262,7 +262,7 @@ It allows the frequency of red and green led the lowest and blue led the highest
 ![Alt text](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/b22fc42a132baec6250b7fad02d68d09ba566778/Screenshot%20(98).png).
  
  
- The module explains 5 ports:
+The module explains 5 ports:
   
 1. **clk**: input clock
     
