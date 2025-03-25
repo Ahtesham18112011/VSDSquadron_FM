@@ -179,7 +179,7 @@ Follow the given [Datasheet](https://github.com/Ahtesham18112011/VSDSquadron_FM/
 UART, or Universal Asynchronous Receiver/Transmitter, is a hardware communication protocol that uses two wires (TX and RX) for transmitting and receiving serial data between devices, often used in embedded systems and microcontrollers. UART communication is asynchronous, meaning it doesn't rely on a shared clock signal between the sender and receiver. 
 
 ### Step 1: Studying the Existing code 
-The existing code for a uart_loopback mechanism can be found [(top.v)](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/9617df7d78351e321941a7b556ba17ce3c103f22/uart-top.v). 
+The existing code for a uart_loopback mechanism can be found here [(top.v)](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/9617df7d78351e321941a7b556ba17ce3c103f22/uart-top.v). 
 <details>
   <summary>Analysis of the verilog code</summary>
   
@@ -191,10 +191,19 @@ The existing code for a uart_loopback mechanism can be found [(top.v)](https://g
   2. **uarttx**: This is the Transmission pin of the UART
   3. **uartx**: Thgis is the reciever pin of UART.
 
+### Internal components analysis
+**Internal Oscilliator** (SB_HFOSC)
+It generates a internal clock signal. configuration:
+*    CLKHFPU = 1'b1 
+*    CLKHFEN = 1'b1 
+*    CLKHF (int_oscillator)
   
+**Frequency counter**
+* It has 27-bit register because it is described as 'reg' in the verilog code, and reg means register. 
+* Increments on every positive edge of int_osc.
+* Bit 5 is routed to the testwire.
 
-
-
+**<span style="color: red;">This text is red.</span>**
 
 
   
