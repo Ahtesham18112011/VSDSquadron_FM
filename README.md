@@ -180,6 +180,9 @@ UART, or Universal Asynchronous Receiver/Transmitter, is a hardware communicatio
 
 ### Step 1: Studying the Existing code 
 The existing code for a uart_loopback mechanism can be found [here](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/9617df7d78351e321941a7b556ba17ce3c103f22/uart-top.v).
+<details>
+  <summary>Analysis of the verilog code</summary>
+  
 
 
 
