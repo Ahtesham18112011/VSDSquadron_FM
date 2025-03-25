@@ -164,6 +164,9 @@ The [Datasheet](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/32ddb8c8
 
 According to the given [Datasheet](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/32ddb8c8ebc921e2051795b4388bbc49cba8ce46/VSDSquadronFMDatasheet.pdf). We need to do the following steps to implement the given verilog code in the FM:
 
+> [!IMPORTANT]
+> Make sure you have the software Ubuntu downloaded before doing the below process.
+
 1. Connect the board with the computer/laptop with a c type USB cable as described in the datasheet. Ensuring the FTDI connection. and type the command ```lsusb```. After typing this commmand you will see ”Future Technology Devices International” text in the terminal, it means the FPGA board is connected.
 
 2. Make one more file which is called a Makefile.[Makefile](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/16f3657047eebb2d53e02e451deed799442105de/Makefile.txt).
@@ -197,8 +200,7 @@ Follow the given [Datasheet](https://github.com/Ahtesham18112011/VSDSquadron_FM/
 
 ## Challenges faced during the above process
 * Face difficulty in connecting board: the USB-C cable was needed to connect. And connection between FTDI and the USB was also important,
-* Difficulty in the software Ubuntu: You can download the Oracle Virtual box from its official website and follow the steps given in the datasheet to download the Ubuntu software.
-
+* Difficulty in understanding verilog code: You can learn the language or search their meaning on google,firefox etc.
 
 # Task2: Implementing a UART loopback mechanism on FM
 ## What is a UART?
