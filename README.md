@@ -251,9 +251,22 @@ It allows the frequency of red and green led the lowest and blue led the highest
    
 <details>
   <summary>Analysis of the second verilog code</summary>
- `The module explains 5 ports`:
- 1. **clk**
+  
+ It is the verilog code for the UART TX 8N1 Transmitter.
  
+#### Module  
+
+ ![Alt text](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/181682d4372f9411e55861c7d63b5ed4ff2d4d7a/Screenshot%20(97).png).
+ The module explains 5 ports:
+  
+ 1. **clk**
+ 2. **txbyte**
+ 3. **senddata**
+ 4. **txdone**
+ 5. **tx**
+
+#### Input
+
 
   
 
