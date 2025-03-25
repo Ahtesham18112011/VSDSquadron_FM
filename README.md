@@ -256,24 +256,30 @@ It allows the frequency of red and green led the lowest and blue led the highest
  
 #### Module  
 
+![Alt text](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/b22fc42a132baec6250b7fad02d68d09ba566778/Screenshot%20(98).png).
  
  
  The module explains 5 ports:
   
  1. **clk**: input clock
- 2. **txbyte**: outgoing byte
- 3. **senddata**: trigger tx
- 4. **txdone**: outgoing byte sent
- 5. **tx**: tx wire
+    
+ 3. **txbyte**: outgoing byte
+    
+ 5. **senddata**: trigger tx
+    
+ 7. **txdone**: outgoing byte sent
+    
+ 9. **tx**: tx wire
 
-![Alt text](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/b22fc42a132baec6250b7fad02d68d09ba566778/Screenshot%20(98).png).
 
 #### Input
 
 The input explains three ports:
 
 1.**clk**
+
 2.**txbyte**
+
 3.**senddata**
 
 #### Output
@@ -281,13 +287,17 @@ The input explains three ports:
 The output explains two ports
 
 1. **txdone**
-2. **tx**
+2. 
+3. **tx**
 
 #### Parameters
 
 **STATE_IDLE**: Waits for senddata.
+
 **STATE_STARTTX**: Sends start bit (0).
+
 **STATE_TXING**: Sends 8-bit data (LSB first).
+
 **STATE_TXDONE**: Sends stop bit (1), marks completion.
 
 
