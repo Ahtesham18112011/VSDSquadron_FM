@@ -25,6 +25,10 @@ capabilities
  Form Factor:
 – Compact design with all pins accessible, perfect for fast prototyping and embedded applications
 
+> [!CAUTION]
+> To avoid causing any damage or malfunctions, it is important to be mindful of the following pointswhen handling or operating the board: To prevent any damage, make sure to handle the board while taking electrostatic discharge(ESD) precautions. Power down the board by disconnecting the board from USB port.
+
+
 
 #### How to run a project in the FPGA board?
 Follow the steps to run a project:
