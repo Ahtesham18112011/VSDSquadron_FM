@@ -179,9 +179,9 @@ Follow the given [Datasheet](https://github.com/Ahtesham18112011/VSDSquadron_FM/
 UART, or Universal Asynchronous Receiver/Transmitter, is a hardware communication protocol that uses two wires (TX and RX) for transmitting and receiving serial data between devices, often used in embedded systems and microcontrollers. UART communication is asynchronous, meaning it doesn't rely on a shared clock signal between the sender and receiver. 
 
 ### Step 1: Studying the Existing code 
-There are two verilog codes for this UART loopback mechanism.The first existing code for a uart_loopback mechanism can be found here [(top.v)](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/9617df7d78351e321941a7b556ba17ce3c103f22/uart-top.v). 
+There are two verilog codes for this UART loopback mechanism.The first existing code for a uart_loopback mechanism can be found here [(top.v)](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/9617df7d78351e321941a7b556ba17ce3c103f22/uart-top.v). This is the second verilog code. [(uart_trx.v)](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/main/uart_trx.v)
 <details>
-  <summary>Analysis of the verilog code</summary>
+  <summary>Analysis of the first verilog code</summary>
   
    ![Alt text](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/b2e72bae034c95a30bc69764fde0108752177795/Screenshot%20(94).png).
   
