@@ -3,20 +3,26 @@
 
 The VSDSquadron FPGA(Field Programmable Gate Array) Mini (FM) is a compact and low-cost development board designed for FPGA prototyping and embedded system projects. This board provides a seamless hardware development experience with an integrated programmer, versatile GPIO access, and onboard memory, making it ideal for students, hobbyists, and developers exploring FPGA-based designs.[(source)](https://www.vlsisystemdesign.com/vsdsquadronfm/). 
 The VSDSquadron FM board - Features and specifications:
- FPGA:
+
+ FPGA:
 – Powered by the Lattice UltraPlus ICE40UP5K FPGA
 – Offers 5.3K LUTs, 1Mb SPRAM, 120Kb DPRAM, and 8 multipliers for versatile design
 capabilities
- Connectivity:
+
+ Connectivity:
 – Equipped with an FTDI FT232H USB to SPI device for seamless communication
 – All FTDI pins are accessible through test points for easy debugging and customization
- General Purpose I/O (GPIO):
+
+ General Purpose I/O (GPIO):
 – All 32 FPGA GPIOs brought out for easy prototyping and interfacing
- Memory:
+
+ Memory:
 – Integrated 4MB SPI flash for data storage and configuration
- LED Indicators:
+
+ LED Indicators:
 – RGB LED included for status indication or user-defined functionality
- Form Factor:
+
+ Form Factor:
 – Compact design with all pins accessible, perfect for fast prototyping and embedded applications
 
 
