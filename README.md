@@ -182,6 +182,7 @@ UART, or Universal Asynchronous Receiver/Transmitter, is a hardware communicatio
 The existing code for a uart_loopback mechanism can be found [(top.v)](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/9617df7d78351e321941a7b556ba17ce3c103f22/uart-top.v). 
 <details>
   <summary>Analysis of the verilog code</summary>
+  
    ![Alt text](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/b2e72bae034c95a30bc69764fde0108752177795/Screenshot%20(94).png).
   
   The module of the verilog code explains four output and two input pins:
