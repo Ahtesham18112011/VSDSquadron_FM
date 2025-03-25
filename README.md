@@ -203,7 +203,7 @@ It generates a internal clock signal. configuration:
 * Increments on every positive edge of int_osc.
 * Bit 5 is routed to the testwire.
 
-**<span style="color: red;">This text is red.</span>**
+<span style="color: red;">This text is red.</span>
 
 
   
