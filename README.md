@@ -225,6 +225,8 @@ It allows the frequency of red and green led the lowest and blue led the highest
    
 <details>
   <summary>Analysis of the second verilog code</summary>
+ `The module explains 5 ports`:
+ 1. **clk**
  
 
   
