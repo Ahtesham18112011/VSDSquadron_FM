@@ -160,7 +160,7 @@ This verilog code for the FM allows it to glow a blue light in the RGB led in a 
 The [Datasheet](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/32ddb8c8ebc921e2051795b4388bbc49cba8ce46/VSDSquadronFMDatasheet.pdf) provide  details about the FPGA chip, SPI Flash Memory,USB to Serial converter etc. It also provides the steps to program the FPGA board, it explains all detail  about the FPGA board very clearly.
 
 > [!TIP]
-> Make sure you have downloaded the Ubuntu software. You can download it b Oracle Virtual box it does not take installing a new software.
+> Make sure you have downloaded the Ubuntu software. You can download it from Oracle Virtual box it does not take installing a new software.
 
 
 <details>
