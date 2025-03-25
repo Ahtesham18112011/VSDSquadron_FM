@@ -213,13 +213,13 @@ In the Verilog code `assign uart_tx = uart_rx;`, the uart_tx signal is directly 
 
 It allows the frequency of red and green led the lowest and blue led the highest. it sets all the leds to the lowest.
 
-RGBLEDEN = 1'b1 : Enables LED operation
+* RGBLEDEN = 1'b1 : Enables LED operation
   
-RGB0PWM = 1'b0 : Red LED minimum brightness, as described in the verilog: 1'b0. In 1'b0 it is clearly seen that it is 1 bit binary zero value.
+* RGB0PWM = 1'b0 : Red LED minimum brightness, as described in the verilog: 1'b0. In 1'b0 it is clearly seen that it is 1 bit binary zero value.
   
-RGB1PWM = 1'b0 : Green LED minimum brightness, as described in the given verilog: 1'b0. In 1'b0 it is clearly seen that it is 1 bit binary zero value.
+* RGB1PWM = 1'b0 : Green LED minimum brightness, as described in the given verilog: 1'b0. In 1'b0 it is clearly seen that it is 1 bit binary zero value.
   
-RGB2PWM = 1'b1 : Blue LED maximum brightness, as described in the given verilog: 1'b1. In 1'b1 it is clearly seen that it is a binary, unsigned, 1-bit wide integral value.
+* RGB2PWM = 1'b1 : Blue LED maximum brightness, as described in the given verilog: 1'b1. In 1'b1 it is clearly seen that it is a binary, unsigned, 1-bit wide integral value.
 
  
 
