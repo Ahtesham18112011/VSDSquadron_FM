@@ -166,6 +166,7 @@ According to the given [Datasheet](https://github.com/Ahtesham18112011/VSDSquadr
 
 
 > [!IMPORTANT]
+
 > Make sure you have the software Ubuntu downloaded before doing the below process.
 
 1. Connect the board with the computer/laptop with a c type USB cable as described in the datasheet. Ensuring the FTDI connection. and type the command ```lsusb```. After typing this commmand you will see ”Future Technology Devices International” text in the terminal, it means the FPGA board is connected.
