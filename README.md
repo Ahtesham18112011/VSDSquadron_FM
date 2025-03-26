@@ -311,6 +311,11 @@ The output explains two ports
 **STATE_TXDONE**: Sends stop bit (1), marks completion.
 
 
+</details>
+
+
+
+
 
   
 
