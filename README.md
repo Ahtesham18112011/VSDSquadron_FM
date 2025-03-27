@@ -54,8 +54,7 @@ Follow the steps to run a project:
 # Tasks
 ****************************************************************************************************************************************************************
 <details>
-  <summary>Task 1:Understanding the verilog code, creating the necessary PCF file and implementing in VSDSquadron FM</summary># Task 1: Understanding the verilog code, creating the necessary PCF file and implementing in VSDSquadron FM</details>
-
+  <summary>Task 1:Understanding the verilog code, creating the necessary PCF file and implementing in VSDSquadron FM</summary>
 This task is divided into **four steps** or parts. 
 
 **Step 1**: Understanding the verilog code 
