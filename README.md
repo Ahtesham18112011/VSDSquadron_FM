@@ -319,6 +319,10 @@ The output explains two ports
 
 ![Alt text](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/0aa69637d1856f4aa88a26501098b5945f19bfcb/UART%20loopback.png).
 
+### Detailed circut diagram of UART loopback
+
+![Alt text](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/48651e2961e704b98d127f66c7c302d999cda0f4/Detailed%20circuit%20diagram%20UART%20loopback.png).
+
 </details>
 
 
