@@ -351,7 +351,42 @@ Follow the steps to test:
 4. Then click on Apply.
 5. Then click on the ---> sign at the send sequences box.
 6. Then you will see the below results after the following results.
-![Alt text](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/396d554eb92322109637e356f7122ff34e5a6a6e/Testing3.png).   
+![Alt text](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/396d554eb92322109637e356f7122ff34e5a6a6e/Testing3.png).
+
+### Step5: Final Documentation
+
+In UART (Universal Asynchronous Receiver/Transmitter) loopback, the transmitter's output is internally connected to the receiver's input, allowing a device to send data to itself for testing and troubleshooting. The TX (transmit) and RX (receive) lines are internally connected, so any data transmitted is also immediately received by the receiver within the same UART module. 
+
+The given verilog cde basically explains the input and output pins of the module. The uarttx pin is connected to an output wire whereas the uartx pin is connected to an input pin it also explains the four parameters:
+* STATE_IDLE: Waits for senddata.
+* STATE_STARTTX: Sends start bit (0).
+* STATE_TXING: Sends 8-bit data (LSB first).
+* STATE_TXDONE: Sends stop bit (1), marks completion.
+
+To understand the functioning of the uart loopback below are the block and circuit diagram of the uart loopback mechanism.
+![Alt text](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/0aa69637d1856f4aa88a26501098b5945f19bfcb/UART%20loopback.png).
+
+![Alt text](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/48651e2961e704b98d127f66c7c302d999cda0f4/Detailed%20circuit%20diagram%20UART%20loopback.png). 
+
+To implement the code on FM follow the following steps:
+* Go to software Ubuntu and open the terminal. Ensure that the FM is connected by typing `lsusb`.
+* Then navigate to the folder by typing `cd <folder name>`.
+* Then type `make build` to build the binaries.
+* Then type `sudo make flash` to program the board.
+* Now you have succesfully implemented the code in the FM.
+
+To test the results you can use any serial terminal but i am using Docklight.
+1. Go to Docklight and go to the project settings and set the Baud rate 9600.
+2. Ensure the communication port in which the USB is connected to the FM and wright the COM number.
+![Alt text](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/396d554eb92322109637e356f7122ff34e5a6a6e/Testing1.png).    
+3. Name the project name and wright the command which will be used in communication in sequence in the top left send sequences box.
+![Alt text](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/396d554eb92322109637e356f7122ff34e5a6a6e/Testing2.png).      
+4. Then click on Apply.
+5. Then click on the ---> sign at the send sequences box.
+6. Then you will see the below results after the following results.
+![Alt text](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/396d554eb92322109637e356f7122ff34e5a6a6e/Testing3.png). 
+
+
 </details>
 
 
