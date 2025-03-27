@@ -324,12 +324,20 @@ The output explains two ports
 
 ### Detailed circut diagram of UART loopback
 
-![Alt text](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/48651e2961e704b98d127f66c7c302d999cda0f4/Detailed%20circuit%20diagram%20UART%20loopback.png).
+![Alt text](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/48651e2961e704b98d127f66c7c302d999cda0f4/Detailed%20circuit%20diagram%20UART%20loopback.png). 
 
 **Step3: Implementation in the FM**
 
 > **Note**
-> Create a  [(Makefile](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/8e5519a421cbb128f586ade2d66ea6ae0c17c6d7/Makefile%20(UART%20loopback).txt)
+> Create a  [Makefile](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/8e5519a421cbb128f586ade2d66ea6ae0c17c6d7/Makefile%20(UART%20loopback).txt) and paste it in the uart_loopback folder. Also ensure that the folder have the [PCF](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/b9d431c5828aba0c263ed9764659d42ec006338c/VSDSquadronFM%20(UART%20loopback).pcf) file and the two verilog codes.
+
+Follow the steps to implement the verilog code on FM
+1. Go to software  Ubuntu and open the terminal. Ensure that the FM is connected by typing `lsusb`.
+2. Then navigate to the folder by typing `cd <folder name>`.
+3. Then type `make build` to build the binaries.
+4. Then type `sudo make flash` to program the board.
+5. Now you have succesfully implemented the code in the FM.
+
 </details>
 
 
