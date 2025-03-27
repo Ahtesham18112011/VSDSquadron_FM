@@ -54,7 +54,7 @@ Follow the steps to run a project:
 # Tasks
 ****************************************************************************************************************************************************************
 <details>
-  <summary>Task 1:Understanding the verilog code, creating the necessary PCF file and implementing in VSDSquadron FM</summary># Task 1: Understanding the verilog code, creating the necessary PCF file and implementing in VSDSquadron FM
+  <summary>Task 1:Understanding the verilog code, creating the necessary PCF file and implementing in VSDSquadron FM</summary># Task 1: Understanding the verilog code, creating the necessary PCF file and implementing in VSDSquadron FM</details>
 
 This task is divided into **four steps** or parts. 
 
@@ -215,7 +215,7 @@ Follow the given [Datasheet](https://github.com/Ahtesham18112011/VSDSquadron_FM/
 
 ****************************************************************************************************************************************************************
  <details>
-  <summary>Task2: Implementing a UART loopback mechanism on FM
+  <summary>Task2: Implementing a UART loopback mechanism on FM</summary>
 
     
 ## What is a UART?
