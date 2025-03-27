@@ -394,6 +394,7 @@ To test the results you can use any serial terminal but i am using Docklight.
 3. Identify and Note COM Ports
 
 </details>
+
 ****************************************************************************************************************************************************************
 
 
