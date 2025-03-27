@@ -218,6 +218,18 @@ Follow the given [Datasheet](https://github.com/Ahtesham18112011/VSDSquadron_FM/
  <details>
   <summary>Task2: Implementing a UART loopback mechanism on FM</summary>
 
+This task is divided into **five steps** or parts. 
+
+**Step 1**: Understanding the verilog code 
+
+**Step 2**: Creating a block diagram for UART loopback
+
+**Step 3**: Integrating with the VSDSquadron FPGA Mini Board
+
+**Step 4**: Testing and verification
+
+**Step 5**: Final documentation
+
     
 ## What is a UART?
 UART, or Universal Asynchronous Receiver/Transmitter, is a hardware communication protocol that uses two wires (TX and RX) for transmitting and receiving serial data between devices, often used in embedded systems and microcontrollers. UART communication is asynchronous, meaning it doesn't rely on a shared clock signal between the sender and receiver. 
