@@ -124,7 +124,7 @@ This verilog code for the FM allows it to glow a blue light in the RGB led in a 
 * And Red and green at minimum brightness (1'b0).
 * PWM (Pulse Width Modulation) control for each color.
 
-  </details>
+
 
 
  
@@ -133,8 +133,8 @@ This verilog code for the FM allows it to glow a blue light in the RGB led in a 
   
   This is the PCF file. [VSDSquadronFM.pcf](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/e42b59be2d586c9407dcfc91577753fcdb8994a9/VSDSquadronFM.pcf). A PCF(Physical Constraint File) is a file which is used to instruct the FPGA to where it have to send the output, for example in this case of RGB LED the PCF file is used to instruct the FPGA to the RGB LED pins.
 
- <details>
-  <summary>Analysis of the connection of the PCF file</summary> 
+
+  ## Analysis of the connection of the PCF file
 
   
 
@@ -151,7 +151,7 @@ This verilog code for the FM allows it to glow a blue light in the RGB led in a 
 
   <img src="https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/010ff4b0db3c8e0d270005114f78691f9bb029af/WhatsApp%20Image%202025-03-21%20at%202.38.37%20PM.jpeg" alt="Description" width="400"/>.
 
-  </details>
+  
 
   
 
@@ -163,8 +163,8 @@ The [Datasheet](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/32ddb8c8
 > Make sure you have downloaded the Ubuntu software. You can download it from Oracle Virtual box it does not take installing a new software.
 
 
-<details>
-  <summary>Implementation in the FM</summary> 
+
+## Implementation in the FM
 
 According to the given [Datasheet](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/32ddb8c8ebc921e2051795b4388bbc49cba8ce46/VSDSquadronFMDatasheet.pdf). We need to do the following steps to implement the given verilog code in the FM:
 
