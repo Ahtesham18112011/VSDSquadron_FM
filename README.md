@@ -49,8 +49,8 @@ Follow the steps to run a project:
 
 ```make clean```
 
-****************************************************************************************************************************************************************
 
+****************************************************************************************************************************************************************
 <details>
   <summary>Task 1:Understanding the verilog code, creating the necessary PCF file and implementing in VSDSquadron FM</summary># Task 1: Understanding the verilog code, creating the necessary PCF file and implementing in VSDSquadron FM
 
@@ -211,6 +211,7 @@ Follow the given [Datasheet](https://github.com/Ahtesham18112011/VSDSquadron_FM/
 
 </details>
 
+****************************************************************************************************************************************************************
 # Task2: Implementing a UART loopback mechanism on FM
 ## What is a UART?
 UART, or Universal Asynchronous Receiver/Transmitter, is a hardware communication protocol that uses two wires (TX and RX) for transmitting and receiving serial data between devices, often used in embedded systems and microcontrollers. UART communication is asynchronous, meaning it doesn't rely on a shared clock signal between the sender and receiver. 
