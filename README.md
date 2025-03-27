@@ -188,7 +188,7 @@ According to the given [Datasheet](https://github.com/Ahtesham18112011/VSDSquadr
 
   <img src="https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/main/WhatsApp%20Image%202025-03-18%20at%209.52.28%20PM.jpeg" alt="Description" width="500"/>
 
-  </details>
+  
 
 ### Step 4: Final documentation (Summary)
 The given verilog code tells the three inputs of the RGB led with some internal and external devices like internal high-frequency oscillator and 28-bit frequency counter. The counter's bit 5 is routed to a testwire for monitoring. The RGB LED driver (SB_RGBA_DRV) provides current-controlled outputs with a fixed configuration: blue at maximum brightness, red and green at minimum.
@@ -206,6 +206,8 @@ Follow the given [Datasheet](https://github.com/Ahtesham18112011/VSDSquadron_FM/
 ## Challenges faced during the above process
 * Face difficulty in connecting board: the USB-C cable was needed to connect. And connection between FTDI and the USB was also important,
 * Difficulty in understanding verilog code: You can learn the language or search their meaning on google,firefox etc.
+
+</details>
 
 # Task2: Implementing a UART loopback mechanism on FM
 ## What is a UART?
