@@ -384,7 +384,15 @@ To test the results you can use any serial terminal but i am using Docklight.
 4. Then click on Apply.
 5. Then click on the ---> sign at the send sequences box.
 6. Then you will see the below results after the following results.
-![Alt text](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/396d554eb92322109637e356f7122ff34e5a6a6e/Testing3.png). 
+![Alt text](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/396d554eb92322109637e356f7122ff34e5a6a6e/Testing3.png).
+
+## Challanges faced during the above process
+* Difficulty in understanding verilog code: You can learn the language or search their meaning on google,firefox etc.
+* Difficulty in identifying the communicacation port. follow the below steps.
+1. Open Device Manager
+2. Locate "Ports (COM & LPT)"
+3. Identify and Note COM Ports
+
 
 
 </details>
