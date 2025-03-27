@@ -328,7 +328,7 @@ The output explains two ports
 
 **Step3: Implementation in the FM**
 
-> [!NOTE]
+> **Note**
 > Useful information that users should know, even when skimming content.
 
 </details>
