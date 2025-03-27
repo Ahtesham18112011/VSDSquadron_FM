@@ -143,15 +143,15 @@ This verilog code for the FM allows it to glow a blue light in the RGB led in a 
   
 
 
-*  **set_io led_red 39**: This command helps the logical signal from FPGA to reach the pin number 39 which is one of the three input pins of thr RGB LED(which glows red led).
+* **set_io led_red 39**: This command helps the logical signal from FPGA to reach the pin number 39 which is one of the three input pins of thr RGB LED(which glows red led).
 
 * **set_io led_blue 40**: This command helps the logical signal from FPGA to reach the pin number 40 which is one of the three input pins of thr RGB LED(which glows blue).
 
 * **set_io led_green 41**: This command helps the logical signal from FPGA to reach the pin number 41 which is one of the three input pins of thr RGB LED(which glows green).
 
-*  **set_io hw_clk 20** This command helps the logical signal from FPGA to reach the pin number 20.
+* **set_io hw_clk 20** This command helps the logical signal from FPGA to reach the pin number 20.
 
-*  **5 set_io testwire 17** This command helps the logical signal from FPGA to reach the pin number 17.
+* **5 set_io testwire 17** This command helps the logical signal from FPGA to reach the pin number 17.
 
   <img src="https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/010ff4b0db3c8e0d270005114f78691f9bb029af/WhatsApp%20Image%202025-03-21%20at%202.38.37%20PM.jpeg" alt="Description" width="400"/>.
 
@@ -163,7 +163,8 @@ This verilog code for the FM allows it to glow a blue light in the RGB led in a 
 
 The [Datasheet](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/32ddb8c8ebc921e2051795b4388bbc49cba8ce46/VSDSquadronFMDatasheet.pdf) provide  details about the FPGA chip, SPI Flash Memory,USB to Serial converter etc. It also provides the steps to program the FPGA board, it explains all detail  about the FPGA board very clearly.
 
-> [!TIP]
+> **Tip**
+
 > Make sure you have downloaded the Ubuntu software. You can download it from Oracle Virtual box it does not take installing a new software.
 
 
