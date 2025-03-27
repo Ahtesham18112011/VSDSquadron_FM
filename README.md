@@ -343,7 +343,15 @@ Follow the steps to implement the verilog code on FM
 We have implemented the necessary code and now we have to test that if it works or not. We will be using a serial terminal to test it. The serial terminal which we will be using is Docklight.
 Follow the steps to test:
 
-1. 
+1. Go to Docklight and go to the project settings and set the Baud rate 9600.
+2. Ensure the communication port in which the USB is connected to the FM and wright the COM number.
+![Alt text](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/396d554eb92322109637e356f7122ff34e5a6a6e/Testing1.png).    
+3. Name the project name and wright the command which will be used in communication in sequence in the top left send sequences box.
+![Alt text](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/396d554eb92322109637e356f7122ff34e5a6a6e/Testing2.png).      
+4. Then click on Apply.
+5. Then click on the ---> sign at the send sequences box.
+6. Then you will see the below results after the following results.
+![Alt text](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/396d554eb92322109637e356f7122ff34e5a6a6e/Testing3.png).   
 </details>
 
 
