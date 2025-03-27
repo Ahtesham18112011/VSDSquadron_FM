@@ -54,7 +54,7 @@ Follow the steps to run a project:
 # Tasks
 ****************************************************************************************************************************************************************
 <details>
-  <summary>Task 1:Understanding the verilog code, creating the necessary PCF file and implementing in VSDSquadron FM</summary>
+  <summary>Task 1: Implementing a verilog code to glow a blue LED in the RGB LED in the FM</summary>
   
 This task is divided into **four steps** or parts. 
 
