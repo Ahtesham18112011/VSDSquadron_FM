@@ -50,6 +50,8 @@ Follow the steps to run a project:
 ```make clean```
 
 
+
+# Tasks
 ****************************************************************************************************************************************************************
 <details>
   <summary>Task 1:Understanding the verilog code, creating the necessary PCF file and implementing in VSDSquadron FM</summary># Task 1: Understanding the verilog code, creating the necessary PCF file and implementing in VSDSquadron FM
@@ -212,14 +214,15 @@ Follow the given [Datasheet](https://github.com/Ahtesham18112011/VSDSquadron_FM/
 </details>
 
 ****************************************************************************************************************************************************************
-# Task2: Implementing a UART loopback mechanism on FM
+ <details>
+  <summary>Task2: Implementing a UART loopback mechanism on FM
 ## What is a UART?
 UART, or Universal Asynchronous Receiver/Transmitter, is a hardware communication protocol that uses two wires (TX and RX) for transmitting and receiving serial data between devices, often used in embedded systems and microcontrollers. UART communication is asynchronous, meaning it doesn't rely on a shared clock signal between the sender and receiver. 
 
 ### Step 1: Studying the Existing code 
 There are two verilog codes for this UART loopback mechanism.The first existing code for a uart_loopback mechanism can be found here [(top.v)](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/9617df7d78351e321941a7b556ba17ce3c103f22/uart-top.v). This is the second verilog code. [(uart_trx.v)](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/main/uart_trx.v)
-<details>
-  <summary>Analysis of the first verilog code</summary>
+
+## Analysis of the first veriog code
   
    ![Alt text](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/b2e72bae034c95a30bc69764fde0108752177795/Screenshot%20(94).png).
   
@@ -259,15 +262,10 @@ It allows the frequency of red and green led the lowest and blue led the highest
   
 * RGB2PWM = 1'b1 : Blue LED maximum brightness, as described in the given verilog: 1'b1. In 1'b1 it is clearly seen that it is a binary, unsigned, 1-bit wide integral value.
 
-   </details>
+ 
    
-<details>
-  <summary>Analysis of the second verilog code</summary>
-
-
-  
-  
- It is the verilog code for the UART TX 8N1 Transmitter.
+## Analysis of the second verilog code (uart.trx.v)  
+ It is the verilog code for the **UART TX 8N1 Transmitter**.
  
 #### Module  
 
