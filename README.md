@@ -316,7 +316,7 @@ The output explains two ports
 
 **STATE_TXDONE**: Sends stop bit (1), marks completion.
 
-**Step2: Creating a block diagram for UART loopback**
+### Step2: Creating a block diagram for UART loopback
 
 ### UART Loopback block diagram
 
@@ -326,7 +326,7 @@ The output explains two ports
 
 ![Alt text](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/48651e2961e704b98d127f66c7c302d999cda0f4/Detailed%20circuit%20diagram%20UART%20loopback.png). 
 
-**Step3: Implementation in the FM**
+### Step3: Implementation in the FM
 
 > **Note**
 > Create a  [Makefile](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/8e5519a421cbb128f586ade2d66ea6ae0c17c6d7/Makefile%20(UART%20loopback).txt) and paste it in the uart_loopback folder. Also ensure that the folder have the [PCF](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/b9d431c5828aba0c263ed9764659d42ec006338c/VSDSquadronFM%20(UART%20loopback).pcf) file and the two verilog codes.
@@ -338,6 +338,12 @@ Follow the steps to implement the verilog code on FM
 4. Then type `sudo make flash` to program the board.
 5. Now you have succesfully implemented the code in the FM.
 
+### Step4: Testing and verification
+
+We have implemented the necessary code and now we have to test that if it works or not. We will be using a serial terminal to test it. The serial terminal which we will be using is Docklight.
+Follow the steps to test:
+
+1. 
 </details>
 
 
