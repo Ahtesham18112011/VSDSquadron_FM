@@ -49,7 +49,7 @@ Follow the steps to run a project:
 
 ```make clean```
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+****************************************************************************************************************************************************************
 
 <details>
   <summary>Task 1:Understanding the verilog code, creating the necessary PCF file and implementing in VSDSquadron FM</summary># Task 1: Understanding the verilog code, creating the necessary PCF file and implementing in VSDSquadron FM
