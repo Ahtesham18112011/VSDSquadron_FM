@@ -327,6 +327,13 @@ The output explains two ports
 
 **Step3: Implementation in the FM**
 
+> **Note:**
+> This is a note section. You can use it to provide important information or tips to the readers.
+>
+> - You can include bullet points.
+> - Make sure to format the text properly.
+> - Use blockquotes for notes.
+
 </details>
 
 
