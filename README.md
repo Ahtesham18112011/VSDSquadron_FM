@@ -315,6 +315,9 @@ The output explains two ports
 
 **STATE_TXDONE**: Sends stop bit (1), marks completion.
 
+### UART Loopback block diagram
+
+![Alt text](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/0aa69637d1856f4aa88a26501098b5945f19bfcb/UART%20loopback.png).
 
 </details>
 
