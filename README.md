@@ -431,7 +431,6 @@ The module explains 5 ports 4 wires of output and a wire of input.
 3. **hw_clk**: This is the input wire of the mudule.  It is a clock that provides clock signals to the module"s timing. It is the Hardware oscillator not the internal oscillator.
    
 
-uart_tx_8n1 DanUART (.clk (clk_9600), .txbyte("D"), .senddata(frequency_counter_i[24]), .tx(uarttx));
 
 
 * **uart_tx_8n1**: This is the name of the module 
@@ -446,7 +445,14 @@ uart_tx_8n1 DanUART (.clk (clk_9600), .txbyte("D"), .senddata(frequency_counter_
 
 * **.tx(uarttx)**: The tx output of the uart_tx_8n1 module is connected to the uarttx signal, which is the UART transmission pin.
 
-* **Overall, this module sets up a UART transmitter and controls RGB LEDs based on an internal oscillator and frequency counter.**
+**Overall, this module sets up a UART transmitter and controls RGB LEDs based on an internal oscillator and frequency counter.**
+
+### Step2: Block and circuit diagram of the UART transmitter
+
+Block giagram:
+
+![Alt text](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/326bd802843f61d66d35b0c2c65d1783b01c2a8e/Screenshot%20(108).png).
+
 
 
 
