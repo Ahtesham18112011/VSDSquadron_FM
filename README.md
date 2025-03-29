@@ -430,19 +430,19 @@ The module explains 5 ports 4 wires of output and a wire of input.
 2. **uarttx**: This is the ouput wire which is connected to the output wire of the transmission pin.
 3. **hw_clk**: This is the input wire of the mudule.  It is a clock that provides clock signals to the module"s timing. It is the Hardware oscillator not the internal oscillator.
 
-**uart_tx_8n1**: This is the name of the module 
+* **uart_tx_8n1**: This is the name of the module 
 
-**DanUART**: This is the instance name of the uart_tx_8n1 module.
+* **DanUART**: This is the instance name of the uart_tx_8n1 module.
 
-**.clk (clk_9600)**: The clk input of the uart_tx_8n1 module is connected to the clk_9600 signal, which is a 9600 Hz clock generated within the top module.
+* **.clk (clk_9600)**: The clk input of the uart_tx_8n1 module is connected to the clk_9600 signal, which is a 9600 Hz clock generated within the top module.
 
-**.txbyte("D")**: The txbyte input of the uart_tx_8n1 module is connected to the character D. This is the data byte to be transmitted.
+* **.txbyte("D")**: The txbyte input of the uart_tx_8n1 module is connected to the character D. This is the data byte to be transmitted.
 
-**.senddata(frequency_counter_i[24])**: The senddata input of the uart_tx_8n1 module is connected to the 24th bit of the frequency_counter_i register. This signal likely triggers the sending of the txbyte.
+* **.senddata(frequency_counter_i[24])**: The senddata input of the uart_tx_8n1 module is connected to the 24th bit of the frequency_counter_i register. This signal likely triggers the sending of the txbyte.
 
-**.tx(uarttx)**: The tx output of the uart_tx_8n1 module is connected to the uarttx signal, which is the UART transmission pin.
+* **.tx(uarttx)**: The tx output of the uart_tx_8n1 module is connected to the uarttx signal, which is the UART transmission pin.
 
-**Overall, this module sets up a UART transmitter and controls RGB LEDs based on an internal oscillator and frequency counter.**
+* **Overall, this module sets up a UART transmitter and controls RGB LEDs based on an internal oscillator and frequency counter.**
 
 
 
