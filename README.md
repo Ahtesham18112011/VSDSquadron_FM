@@ -417,7 +417,39 @@ To test the results you can use any serial terminal but i am using Docklight.
   <summary>Task3: Implementing a UART transmitter mechanism on FM</summary>
 
   ## Step1: Studying the exsisting code
- These are the existing codes for the uart transmitter.[top.v](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/dc19cd95dd1d14183d73b8ce01c80c11a6c4d1c6/top%20(1).v) and [top.v](https://github.com/thesourcerer8/VSDSquadron_FM/blob/53840bb096ec59b11f26a0b5e362711b12540dbd/uart_tx/uart_trx.v)
+ These are the existing codes for the uart transmitter.[top.v](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/dc19cd95dd1d14183d73b8ce01c80c11a6c4d1c6/top%20(1).v) and [uart_trx.v](https://github.com/thesourcerer8/VSDSquadron_FM/blob/53840bb096ec59b11f26a0b5e362711b12540dbd/uart_tx/uart_trx.v). The uart_trx.v verilog code is same as the verilog code given in the task 2 therefore we will
+ not be discussing it in this analysis. You can see the task 2 uart_trx.v analysis by going back.
+
+ ### Analysis of the top.v code
+ 
+ #### Module
+![Alt text](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/c7f528012a595f554c5caf661d11a41862caef3e/Screenshot%20(107).png).
+
+The module explains 5 ports 4 wires of output and a wire of input.
+1. **led_red led_green led_blue**: These are the output wires that are connected to the RGB LED and controls the colors of the LED.
+2. **uarttx**: This is the ouput wire which is connected to the output wire of the transmission pin.
+3. **hw_clk**: This is the input wire of the mudule.  It is a clock that provides clock signals to the module"s timing. It is the Hardware oscillator not the internal oscillator.
+
+**uart_tx_8n1**: This is the name of the module 
+
+**DanUART**: This is the instance name of the uart_tx_8n1 module.
+
+**.clk (clk_9600)**: The clk input of the uart_tx_8n1 module is connected to the clk_9600 signal, which is a 9600 Hz clock generated within the top module.
+
+**.txbyte("D")**: The txbyte input of the uart_tx_8n1 module is connected to the character D. This is the data byte to be transmitted.
+
+**.senddata(frequency_counter_i[24])**: The senddata input of the uart_tx_8n1 module is connected to the 24th bit of the frequency_counter_i register. This signal likely triggers the sending of the txbyte.
+
+**.tx(uarttx)**: The tx output of the uart_tx_8n1 module is connected to the uarttx signal, which is the UART transmission pin.
+
+**Overall, this module sets up a UART transmitter and controls RGB LEDs based on an internal oscillator and frequency counter.**
+
+
+
+
+
+
+ 
 
 
 
