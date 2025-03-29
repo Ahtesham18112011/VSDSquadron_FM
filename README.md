@@ -429,6 +429,10 @@ The module explains 5 ports 4 wires of output and a wire of input.
 1. **led_red led_green led_blue**: These are the output wires that are connected to the RGB LED and controls the colors of the LED.
 2. **uarttx**: This is the ouput wire which is connected to the output wire of the transmission pin.
 3. **hw_clk**: This is the input wire of the mudule.  It is a clock that provides clock signals to the module"s timing. It is the Hardware oscillator not the internal oscillator.
+   
+
+uart_tx_8n1 DanUART (.clk (clk_9600), .txbyte("D"), .senddata(frequency_counter_i[24]), .tx(uarttx));
+
 
 * **uart_tx_8n1**: This is the name of the module 
 
