@@ -413,6 +413,12 @@ To test the results you can use any serial terminal but i am using Docklight.
 ****************************************************************************************************************************************************************
 
 
+ <details>
+  <summary>Task3: Implementing a UART transmitter mechanism on FM</summary>
+
+  ## Step1: Studying the exsisting code
+ These are the existing codes for the uart transmitter.[top.v](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/dc19cd95dd1d14183d73b8ce01c80c11a6c4d1c6/top%20(1).v) and [top.v}(https://github.com/thesourcerer8/VSDSquadron_FM/blob/53840bb096ec59b11f26a0b5e362711b12540dbd/uart_tx/uart_trx.v)
+
 
 
 
