@@ -449,9 +449,13 @@ The module explains 5 ports 4 wires of output and a wire of input.
 
 ### Step2: Block and circuit diagram of the UART transmitter
 
-Block giagram:
+**Block diagram:**
 
 ![Alt text](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/326bd802843f61d66d35b0c2c65d1783b01c2a8e/Screenshot%20(108).png).
+
+**Circuit diagram**
+
+![Alt text](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/ebce692adb70bfd8f7b661dbfd7408ced321bd84/Screenshot%20(109).png).
 
 
 
