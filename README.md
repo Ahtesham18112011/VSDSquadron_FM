@@ -518,6 +518,8 @@ As per the verilog code the FPGA is sending the character 'D' only.
   2. Then after installation type `sudo make terminal
   By this process you can also test it in the Ubuntu the outputs will be same only.
 
+</details>
+
 ****************************************************************************************************************************************************************
 
 
