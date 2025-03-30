@@ -415,6 +415,18 @@ To test the results you can use any serial terminal but i am using Docklight.
 
  <details>
   <summary>Task3: Implementing a UART transmitter mechanism on FM</summary>
+
+  This task is divided into five steps or parts.
+
+Step 1: Understanding the verilog code
+
+Step 2: Creating a block diagram for UART transmitter
+
+Step 3: Integrating with the VSDSquadron FPGA Mini Board
+
+Step 4: Testing and verification
+
+Step 5: Final documentation
   
   ### What this project do?
   This project shows how to communicate with the PC and the FPGA it sends character D all time and if we press any key in our keyboard the D letter would not change because this is example is for transmitting the data to the PC not for receiving any data from the PC
