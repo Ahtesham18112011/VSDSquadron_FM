@@ -464,7 +464,7 @@ The module explains 5 ports 4 wires of output and a wire of input.
 > top.v,
 > uart_trx.v,
 > [Makefile](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/main/Makefile%20(UARTTX).txt) and 
-> [PCF file](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/main/VSDSquadronFM%20(uarttx).pcf)
+> [PCF file](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/main/VSDSquadronFM%20(uarttx).pcf) and put all these in the folder that is created in the folder VSDSquadron_FM
 
 
 To implement the code on FM follow the following steps:
