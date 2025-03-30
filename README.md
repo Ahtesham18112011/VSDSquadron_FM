@@ -458,7 +458,20 @@ The module explains 5 ports 4 wires of output and a wire of input.
 ![Alt text](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/ebce692adb70bfd8f7b661dbfd7408ced321bd84/Screenshot%20(109).png).
 
 
+### Step3: Implementation on the board
 
+> Make sure you have copied the following file:
+> top.v
+> uart_trx.v
+> [Makefile](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/main/Makefile%20(UARTTX).txt)
+
+
+To implement the code on FM follow the following steps:
+* Go to software Ubuntu and open the terminal. Ensure that the FM is connected by typing `lsusb`.
+* Then navigate to the folder by typing `cd <folder name>`.
+* Then type `make build` to build the binaries.
+* Then type `sudo make flash` to program the board.
+* Now you have succesfully implemented the code in the FM.
 
 
 
