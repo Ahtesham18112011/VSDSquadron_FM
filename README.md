@@ -417,7 +417,7 @@ To test the results you can use any serial terminal but i am using Docklight.
   <summary>Task3: Implementing a UART transmitter mechanism on FM</summary>
   
   ### What this project do?
-  This project shows how to communicate with the chi p and the FPGA it sens character d all time and if we press any key in our keyboard the d letter would not change because this is example is for transmitting the data to the PC not for receiving any data from the PC
+  This project shows how to communicate with the PC and the FPGA it sends character D all time and if we press any key in our keyboard the D letter would not change because this is example is for transmitting the data to the PC not for receiving any data from the PC
   ### Step1: Studying the exsisting code
  These are the existing codes for the uart transmitter.[top.v](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/dc19cd95dd1d14183d73b8ce01c80c11a6c4d1c6/top%20(1).v) and [uart_trx.v](https://github.com/thesourcerer8/VSDSquadron_FM/blob/53840bb096ec59b11f26a0b5e362711b12540dbd/uart_tx/uart_trx.v). The uart_trx.v verilog code is same as the verilog code given in the task 2 therefore we will
  not be discussing it in this analysis. You can see the task 2 uart_trx.v analysis by going back.
@@ -435,10 +435,10 @@ The module explains 5 ports 4 wires of output and a wire of input.
 
 
 
-* **uart_tx_8n1**: This is the name of the module 
+* **uart_tx_8n1**: This is the name of the transmission pin.
 
-* **DanUART**: This is the instance name of the uart_tx_8n1 module.
-
+* **DanUART**: This is the instance name of the uart_tx_8n1 transmission pin.
+  
 * **.clk (clk_9600)**: The clk input of the uart_tx_8n1 module is connected to the clk_9600 signal, which is a 9600 Hz clock generated within the top module.
 
 * **.txbyte("D")**: The txbyte input of the uart_tx_8n1 module is connected to the character D. This is the data byte to be transmitted.
@@ -489,6 +489,34 @@ To test, install PuTTY from its official webbsite it is a complete opensource so
 
 The UART protocol is implemented im the module uart_trx.v file. It works in one direction only, ie. it sends data without having a provison to receive the data back from the receiver. For UART to work, the Baud rate shoud be the same on both the transmitting anf receiving side. Here the Baud rate is 9600 Hz.
 
+The existing verilog code explains the fuctioning of the this project, the transmitting pin of the FPGA is named as uart_tx_8n1. It always sends the character 'D' all the time you can see above for more explaination.
+We can understand the transmission of the FPGA by the following block and circuit diagram:
+![Alt text](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/326bd802843f61d66d35b0c2c65d1783b01c2a8e/Screenshot%20(108).png).
+![Alt text](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/ebce692adb70bfd8f7b661dbfd7408ced321bd84/Screenshot%20(109).png).
+
+To implement the code on FM follow the following steps:
+* Go to software Ubuntu and open the terminal. Ensure that the FM is connected by typing `lsusb`.
+* Then navigate to the folder by typing `cd <folder name>`.
+* Then type `make build` to build the binaries.
+* Then type `sudo make flash` to program the board.
+* Now you have succesfully implemented the code in the FM.
+
+To test, install PuTTY from its official webbsite it is a complete opensource software. Then after installing the software follow the below steps:-
+1. Select the connection type as Serial, then you should check which COM port is working by taking a look in Device Manager.
+![Alt text](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/a02b63cc8b04445e3aabc67e98a5ce367615749f/Screenshot%20(111).png)   
+2. Click on "open".
+3. Then you will see the folllowing 'D's after clicking:-
+
+![Alt text](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/a02b63cc8b04445e3aabc67e98a5ce367615749f/Screenshot%20(112).png)   
+
+As per the verilog code the FPGA is sending the character 'D' only.
+
+## Challanges faced during the above process
+* Difficulty in understanding verilog code: You can learn the language or search their meaning on google,firefox etc.
+* Difficulty in PuTTY: If you are not able to to run the testing in PuTTY you can also run it in the Ubuntu software which use Linux language by the following steps:
+  1. Go to the terminal and type `sudo apt install picocom` this command will install the software called picocom
+  2. Then after installation type `sudo make terminal
+  By this process you can also test it in the Ubuntu the outputs will be same only.
 
 
 
