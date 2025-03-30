@@ -415,8 +415,10 @@ To test the results you can use any serial terminal but i am using Docklight.
 
  <details>
   <summary>Task3: Implementing a UART transmitter mechanism on FM</summary>
-
-  ## Step1: Studying the exsisting code
+  
+  ### What this project do?
+  This project shows how to communicate with the chi p and the FPGA it sens character d all time and if we press any key in our keyboard the d letter would not change because this is example is for transmitting the data to the PC not for receiving any data from the PC
+  ### Step1: Studying the exsisting code
  These are the existing codes for the uart transmitter.[top.v](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/dc19cd95dd1d14183d73b8ce01c80c11a6c4d1c6/top%20(1).v) and [uart_trx.v](https://github.com/thesourcerer8/VSDSquadron_FM/blob/53840bb096ec59b11f26a0b5e362711b12540dbd/uart_tx/uart_trx.v). The uart_trx.v verilog code is same as the verilog code given in the task 2 therefore we will
  not be discussing it in this analysis. You can see the task 2 uart_trx.v analysis by going back.
 
@@ -479,9 +481,13 @@ To test, install PuTTY from its official webbsite it is a complete opensource so
 1. Select the connection type as Serial, then you should check which COM port is working by taking a look in Device Manager.
 ![Alt text](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/a02b63cc8b04445e3aabc67e98a5ce367615749f/Screenshot%20(111).png)   
 2. Click on "open".
-3. Then you will see the folllowing results after clicking:-
+3. Then you will see the folllowing 'D's after clicking:-
 
 ![Alt text](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/a02b63cc8b04445e3aabc67e98a5ce367615749f/Screenshot%20(112).png)   
+
+### Step5: Final documentation
+
+The UART protocol is implemented im the module uart_trx.v file. It works in one direction only, ie. it sends data without having a provison to receive the data back from the receiver. For UART to work, the Baud rate shoud be the same on both the transmitting anf receiving side. Here the Baud rate is 9600 Hz.
 
 
 
