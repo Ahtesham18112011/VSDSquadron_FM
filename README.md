@@ -235,7 +235,7 @@ This task is divided into **five steps** or parts.
 
     
 ## What is a UART?
-UART, or Universal Asynchronous Receiver/Transmitter, is a hardware communication protocol that uses two wires (TX and RX) for transmitting and receiving serial data between devices, often used in embedded systems and microcontrollers. UART communication is asynchronous, meaning it doesn't rely on a shared clock signal between the sender and receiver. 
+UART, or Universal Asynchronous Receiver/Transmitter, is a hardware communication protocol that uses two wires (TX and RX) for transmitting and receiving serial data between devices, often used in embedded systems and microcontrollers. UART communication is asynchronous, meaning it doesn't rely on a shared clock signal between the sender and receiver. For UART to work, the Baud rate shoud be the same on both the transmitting anf receiving side
 
 ### Step 1: Studying the Existing code 
 There are two verilog codes for this UART loopback mechanism.The first existing code for a uart_loopback mechanism can be found here [(top.v)](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/9617df7d78351e321941a7b556ba17ce3c103f22/uart-top.v). This is the second verilog code. [(uart_trx.v)](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/main/uart_trx.v)
@@ -473,6 +473,19 @@ To implement the code on FM follow the following steps:
 * Then type `make build` to build the binaries.
 * Then type `sudo make flash` to program the board.
 * Now you have succesfully implemented the code in the FM.
+
+### Step4: Testing and verification
+To test, install PuTTY from its official webbsite it is a complete opensource software. Then after installing the software follow the below steps:-
+1. Select the connection type as Serial, then you should check which COM port is working by taking a look in Device Manager.
+![Alt text](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/a02b63cc8b04445e3aabc67e98a5ce367615749f/Screenshot%20(111).png)   
+2. Click on "open".
+3. Then you will see the folllowing results after clicking:-
+
+![Alt text](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/a02b63cc8b04445e3aabc67e98a5ce367615749f/Screenshot%20(112).png)   
+
+
+
+
 
 
 
