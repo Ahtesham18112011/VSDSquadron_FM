@@ -499,8 +499,13 @@ As per the verilog code the FPGA is sending the character 'D' only.
 ## Challanges faced during the above process
 * Difficulty in understanding verilog code: You can learn the language or search their meaning on google,firefox etc.
 * Difficulty in PuTTY: If you are not able to to run the testing in PuTTY you can also run it in the Ubuntu software which use Linux language by the following steps:
-  1. Go to the terminal and type `sudo apt install picocom` this command will install the software called picocom
-  2. Then after installation type `sudo make terminal`
+  1. Go to the terminal and type
+            sudo apt install picocom
+
+  this command will install the software called picocom
+  3. Then after installation type
+
+            sudo make terminal
   By this process you can also test it in the Ubuntu the outputs will be same only.
 
 </details>
