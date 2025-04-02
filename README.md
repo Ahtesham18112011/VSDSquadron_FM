@@ -59,7 +59,9 @@ Follow the steps to run a project:
 <details>
   <summary>Task 1: Implementing a verilog code to glow a blue LED in the RGB LED in the FM</summary>
   
+### What this project do?
 
+This project blinks a blue LED on the RGB LED present on the FPGA board.
 
 ### Step 1: Understanding the verilog code
 This is the link of the verilog code for the glowing of blue led in a RGB led present in the FPGA board. [top.v](https://github.com/Ahtesham18112011/VSDSquadron_FM/commit/c6511d8ea1d69d50770b938977da7150673a1d7a). 
@@ -509,7 +511,7 @@ As per the verilog code the FPGA is sending the character 'D' only.
   <summary>Task4: Implementing a UART transmitter mechanism on FM which glows the LED  whenever a character is recieved from the PC</summary>
 
 ### What this project do?
-It sends the 'D' characters repeatedly from the FPGA through USB to the computer, and lights up the LED whenever a character is received from the PC
+It sends the 'D' characters repeatedly from the FPGA through USB to the computer, and lights up the LED whenever a character is received from the PC. 
 
 ### Step1: Understanding the existing verilog code
 
