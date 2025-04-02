@@ -582,21 +582,25 @@ To test, install PuTTY from its official webbsite it is a complete opensource so
 
 The top.v Verilog file defines a module named top which includes the following functionalities:
 
-Module Declaration: The module has several output wires for LEDs (red, blue, green) and UART transmission (uarttx), and input wires for UART reception (uartrx) and hardware clock (hw_clk).
+**Module Declaration**: The module has several output wires for LEDs (red, blue, green) and UART transmission (uarttx), and input wires for UART reception (uartrx) and hardware clock (hw_clk).
 
-Clock Generation: A 9600 Hz clock is generated from a 12 MHz clock using a counter.
+**Clock Generation**: A 9600 Hz clock is generated from a 12 MHz clock using a counter.
 
-UART Transmission: The module uart_tx_8n1 is instantiated for UART transmission, configured to send the byte "D" when a specific condition is met.
+**UART Transmission**: The module uart_tx_8n1 is instantiated for UART transmission, configured to send the byte "D" when a specific condition is met.
 
-Internal Oscillator: An internal high-frequency oscillator is instantiated using the SB_HFOSC primitive.
+**Internal Oscillator**: An internal high-frequency oscillator is instantiated using the SB_HFOSC primitive.
 
-Frequency Counter: A counter increments on each positive edge of the internal oscillator to generate the 9600 Hz clock signal.
+**Frequency Counter**: A counter increments on each positive edge of the internal oscillator to generate the 9600 Hz clock signal.
 
-RGB LED Driver: The SB_RGBA_DRV primitive is used to control RGB LEDs, driven by the UART reception signal (uartrx).
+**RGB LED Driver**: The SB_RGBA_DRV primitive is used to control RGB LEDs, driven by the UART reception signal (uartrx).
 
 In summary, the module handles clock generation, UART transmission, and RGB LED control.
 
+These are the block and circuit diagram for this project to understand this clearly, you can observe that the block and circuit diagram for the case in task 2 is also as same as in the task 3 (this task). This is because this project is quite similar with the project in the task 2, the only difference is that This project lits up the LED in presence of the command from the keyboard and the previous one does not.
 
+![Alt text](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/326bd802843f61d66d35b0c2c65d1783b01c2a8e/Screenshot%20(108).png).
+
+![Alt text](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/ebce692adb70bfd8f7b661dbfd7408ced321bd84/Screenshot%20(109).png).
 
 
  
