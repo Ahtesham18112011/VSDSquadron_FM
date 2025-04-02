@@ -580,6 +580,22 @@ To test, install PuTTY from its official webbsite it is a complete opensource so
 
 ### Step5; Final documentation
 
+The top.v Verilog file defines a module named top which includes the following functionalities:
+
+Module Declaration: The module has several output wires for LEDs (red, blue, green) and UART transmission (uarttx), and input wires for UART reception (uartrx) and hardware clock (hw_clk).
+
+Clock Generation: A 9600 Hz clock is generated from a 12 MHz clock using a counter.
+
+UART Transmission: The module uart_tx_8n1 is instantiated for UART transmission, configured to send the byte "D" when a specific condition is met.
+
+Internal Oscillator: An internal high-frequency oscillator is instantiated using the SB_HFOSC primitive.
+
+Frequency Counter: A counter increments on each positive edge of the internal oscillator to generate the 9600 Hz clock signal.
+
+RGB LED Driver: The SB_RGBA_DRV primitive is used to control RGB LEDs, driven by the UART reception signal (uartrx).
+
+In summary, the module handles clock generation, UART transmission, and RGB LED control.
+
 
 
 
