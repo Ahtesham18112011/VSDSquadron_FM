@@ -625,6 +625,8 @@ To test, install PuTTY from its official webbsite it is a complete opensource so
 
 ![Alt text](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/a02b63cc8b04445e3aabc67e98a5ce367615749f/Screenshot%20(112).png)  
 
+</details>
+
 
 ****************************************************************************************************************************************************************
 
