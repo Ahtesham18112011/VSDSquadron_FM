@@ -1,7 +1,7 @@
 # VSDSquadronFM FPGA board internship by Ahtesham Ahmed
 ### What is VSDSquadron FM (FPGA Mini) board?
 
-The VSDSquadron FPGA(Field Programmable Gate Array) Mini (FM) is a compact and low-cost development board designed for FPGA prototyping and embedded system projects. This board provides a seamless hardware development experience with an integrated programmer, versatile GPIO access, and onboard memory, making it ideal for students, hobbyists, and developers exploring FPGA-based designs.[(source)](https://www.vlsisystemdesign.com/vsdsquadronfm/). 
+The VSDSquadron FPGA(Field Programmable Gate Array) Mini (FM) is a compact and low-cost development board designed for FPGA prototyping and embedded system projects. This board provides a seamless hardware development experience with an integrated programmer, versatile GPIO access, and onboard memory, making it ideal for students, hobbyists, and developers exploring FPGA-based designs.[(source)](https://www.vlsisystemdesign.com/vsdsquadronfm/). These are the [tasks](https://github.com/Ahtesham18112011/VSDSquadron_FM?tab=readme-ov-file#tasks) made by me
 
  ![Alt text](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/ad31b442eb41918709c9383640ed51bc05f17ef6/VSDSquadronFM.png).
  
