@@ -602,6 +602,23 @@ These are the block and circuit diagram for this project to understand this clea
 
 ![Alt text](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/ebce692adb70bfd8f7b661dbfd7408ced321bd84/Screenshot%20(109).png).
 
+To implement the essential code follow the steps:
+* Go to software Ubuntu and open the terminal. Ensure that the FM is connected by typing `lsusb`.
+* Then navigate to the folder by typing `cd <folder name>`.
+* Then type `make build` to build the binaries.
+* Then type `sudo make flash` to program the board.
+* Now you have succesfully implemented the code in the FM.
+
+ ### Step4: Testing and verification
+To test, install PuTTY from its official webbsite it is a complete opensource software. Then after installing the software follow the below steps:-
+1. Select the connection type as Serial, then you should check which COM port is working by taking a look in Device Manager.
+![Alt text](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/a02b63cc8b04445e3aabc67e98a5ce367615749f/Screenshot%20(111).png)   
+2. Click on "open".
+3. Then you will see the folllowing 'D's after clicking:-
+
+![Alt text](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/a02b63cc8b04445e3aabc67e98a5ce367615749f/Screenshot%20(112).png)   
+
+
 
  
 
