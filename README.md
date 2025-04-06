@@ -685,15 +685,15 @@ The existing verilog code can be accessed [here](https://github.com/Ahtesham1811
 The mudule has several input and output ports:
 
 **Outputs**
-* led_red, led_blue, led_green: Control the RGB LEDs.
-* uarttx: UART transmission pin.
-* trig: Trigger output for the ultrasonic sensor.
-* buzzer: Buzzer signal.
+* `led_red, led_blue, led_green`: Control the RGB LEDs.
+* `uarttx`: UART transmission pin.
+* `trig`: Trigger output for the ultrasonic sensor.
+* `buzzer`: Buzzer signal.
 
 **Inputs**
-* uartx: UART receiver pin.
-* hw_clk: Hardware clock input.
-* echo: Echo signal from the ultrasonic sensor.
+* `uartx`: UART receiver pin.
+* `hw_clk`: Hardware clock input.
+* `echo`: Echo signal from the ultrasonic sensor.
 
 ### Internal Oscillator and counter 
 Uses a high-frequency oscillator (SB_HFOSC) to generate a 12MHz clock signal (int_osc). And generates a 9600 Hz clock (clk_9600) using a counter (cntr_9600) to divide the 12MHz clock.
