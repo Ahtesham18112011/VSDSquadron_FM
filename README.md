@@ -753,6 +753,9 @@ The module explains some input and output ports:
 ### Refresher module
 The `refresher50ms` module generates a measurement pulse every 50 milliseconds.
 
+### Block diagram of the pin connection of the project
+
+![Alt text](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/f3bd45dedf4555f63e673ebcabb1230cd9df8dea/Screenshot%20(113).png)
 
 
 
