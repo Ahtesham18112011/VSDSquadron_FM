@@ -778,6 +778,13 @@ To implement the code on FM follow the following steps:
 * Then type `sudo make flash` to program the board.
 * Now you have succesfully implemented the code in the FM.
 
+### Step4: Testing and verification
+
+Follow the steps to test it in the software Docklight:
+1. Set the baud rate to 9600. And 1 stop bit
+2. Ensure the port through which the FM is connected in the device manager
+3. Then test with objects. Put the object or anything above the senser, the buzzer will beep when the object is kept at a feild of 5cm
+
 
 
 
