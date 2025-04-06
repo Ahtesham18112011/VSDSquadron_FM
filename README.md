@@ -52,6 +52,15 @@ Follow the steps to run a project:
 
        make clean
 
+Download the required tools for VSDSquadronFM. Project Icestorm, NextPNR and Yosys.
+These Opensource tools can be downloaded by the following command
+
+#### Project icestorm
+
+     git clone https://github.com/YosysHQ/icestorm.git icestorm
+     cd icestorm
+     make -j$(nproc)
+     sudo make install
 
 
 # Tasks
