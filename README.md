@@ -676,7 +676,7 @@ This theme interfece with the sensors to receive the data sensed, and sending th
 * Virtual Ubuntu software(for programming)
 * Docklight
 
-## Analysis of the existing verilog code 
+## Step1: Analysis of the existing verilog code 
 
 The existing verilog code can be accessed [here](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/77683853b2e289a02d9d120a8bbb93b30b0d60f7/top%20(2).v). The top module integrates an ultrasonic sensor to measure distance, transmits the measured distance over UART, and controls RGB LEDs based on the distance.
 
@@ -753,13 +753,32 @@ The module explains some input and output ports:
 ### Refresher module
 The `refresher50ms` module generates a measurement pulse every 50 milliseconds.
 
-### Block diagram of the pin connection of the project
+### Step2:  Block diagram of the pin connection of the project and the processing flow
 
 ![Alt text](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/f3bd45dedf4555f63e673ebcabb1230cd9df8dea/Screenshot%20(113).png)
 
 **Internal processing flow**
 
 ![Alt text](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/226e757b519b9e607027ee589a2230a9f2b51540/Screenshot%20(114).png)
+
+### Step3: Implementation in the FM
+
+> Make sure you have copied the following file:
+> top.v,
+> ultra_sonic_sensor.v
+> [uart_trx.v](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/c3f163cc21c3779b0ebf307c8d70382f9013cbd1/uart_trx%20(3).v)
+> [Makefile](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/c3f163cc21c3779b0ebf307c8d70382f9013cbd1/Makefile%20(3).txt) and 
+> [PCF file](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/829aacc385a798ed2cccd673f3802d2e45ffff28/VSDSquadronFM%20(4).pcf) and put all these in the folder that is created in the folder VSDSquadron_FM named touchless_bell.
+
+
+To implement the code on FM follow the following steps:
+* Go to software Ubuntu and open the terminal. Ensure that the FM is connected by typing `lsusb`.
+* Then navigate to the folder by typing `cd <folder name>`.
+* Then type `make build` to build the binaries.
+* Then type `sudo make flash` to program the board.
+* Now you have succesfully implemented the code in the FM.
+
+
 
 
 
