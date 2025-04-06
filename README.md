@@ -79,7 +79,9 @@ These Opensource tools can be downloaded by the following command:
      make -j$(nproc)
      sudo make install
 
-> **Note:** These are the commands for the Linux language.    
+> [!NOTE]
+> These are the commands for the language Linux.
+   
 # Tasks
 ****************************************************************************************************************************************************************
 <details>
