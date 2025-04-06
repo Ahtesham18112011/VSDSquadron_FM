@@ -718,6 +718,43 @@ States:
   
 **The top module integrates an ultrasonic sensor to measure distance, transmits the measured distance over UART, and controls RGB LEDs based on the distance. The FSM ensures that the distance is converted to ASCII and sent over UART, and the LEDs provide a visual indication of proximity.**
 
+### Analysis of the Ultra sonic sensor module (ultra_sonic_sensor.v)
+The verilog code for the HC-SR04 module can be accessed [here](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/37f3bca7f6c761e938fda76e942c5f861b84f79e/ulta_sonic_sensor.v).
+
+### Modulee declaration
+The module explains some input and output ports:
+* `clk`: System clock input.
+* `measure`: Signal to start the measurement.
+* `state`: Current state of the finite state machine (FSM).
+* `ready`: Indicates if the module is ready for a new measurement.
+* `echo`: Echo signal from the ultrasonic sensor.
+* `trig`: Trigger signal to the ultrasonic sensor.
+* `distanceRAW`: Raw distance measurement in clock cycles.
+* `distance_cm`: Converted distance in centimeters.
+* `buzzer_signal`: Signal to activate a buzzer if the distance is less than or equal to 5 cm.
+
+### State definitions
+* `IDLE`: Waiting for a measurement pulse.
+* `TRIGGER`: Sending the trigger pulse.
+* `WAIT`: Waiting for the echo signal.
+* `COUNTECHO`: Counting the duration of the echo signal.
+
+### Finite State Machine (FSM)
+* The FSM transitions between states based on the `measure` signal and the `echo` signal.
+* In the `TRIGGER` state, it generates a trigger pulse.
+* In the `WAIT` state, it waits for the echo signal to go high.
+* In the `COUNTECHO` state, it counts the duration of the echo signal.
+
+### Distance Measurements
+* The `distanceRAW` counter increments while the echo signal is high.
+* The raw distance is then converted to centimeters using the formula: `distance_cm = (distanceRAW * 34300) / (2 * 12000000)`.
+* If the distance is less than or equal to 5 cm, the `buzzer_signal` is activated.
+
+### Refresher module
+The `refresher50ms` module generates a measurement pulse every 50 milliseconds.
+
+
+
 
 
 
