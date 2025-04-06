@@ -683,6 +683,7 @@ The existing verilog code can be accessed [here](https://github.com/Ahtesham1811
 ### Module declaration
 
 The mudule has several input and output ports:
+
 **Outputs**
 * led_red, led_blue, led_green: Control the RGB LEDs.
 * uarttx: UART transmission pin.
@@ -709,12 +710,13 @@ Declares signals for distance measurement and sensor control:
 
 Implements an FSM to convert the distance measurement (distance_cm) into ASCII characters and transmit via UART:
 States:
-* IDLE: Waits for sensor readiness.
-* DIGIT_4 to DIGIT_0: Converts each digit of the distance value to ASCII.
-* SEND_CR: Sends carriage return (CR).
-* SEND_LF: Sends line feed (LF).
-* DONE: Completes the transmission.
-
+* `IDLE`: Waits for sensor readiness.
+* `DIGIT_4 to DIGIT_0`: Converts each digit of the distance value to ASCII.
+* `END_CR`: Sends carriage return (CR).
+* `SEND_LF`: Sends line feed (LF).
+* `DONE`: Completes the transmission.
+  
+**The top module integrates an ultrasonic sensor to measure distance, transmits the measured distance over UART, and controls RGB LEDs based on the distance. The FSM ensures that the distance is converted to ASCII and sent over UART, and the LEDs provide a visual indication of proximity.**
 
 
 
