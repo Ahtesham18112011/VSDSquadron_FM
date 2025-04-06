@@ -676,7 +676,7 @@ This theme interfece with the sensors to receive the data sensed, and sending th
 * Virtual Ubuntu software(for programming)
 * Docklight
 
-Analysis of the existing verilog code 
+## Analysis of the existing verilog code 
 
 The existing verilog code can be accessed [here](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/77683853b2e289a02d9d120a8bbb93b30b0d60f7/top%20(2).v). The top module integrates an ultrasonic sensor to measure distance, transmits the measured distance over UART, and controls RGB LEDs based on the distance.
 
