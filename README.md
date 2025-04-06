@@ -721,7 +721,7 @@ States:
 ### Analysis of the Ultra sonic sensor module (ultra_sonic_sensor.v)
 The verilog code for the HC-SR04 module can be accessed [here](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/37f3bca7f6c761e938fda76e942c5f861b84f79e/ulta_sonic_sensor.v).
 
-### Modulee declaration
+### Module declaration
 The module explains some input and output ports:
 * `clk`: System clock input.
 * `measure`: Signal to start the measurement.
