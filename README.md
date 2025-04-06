@@ -659,10 +659,21 @@ To test, install PuTTY from its official webbsite it is a complete opensource so
 ****************************************************************************************************************************************************************
 
 
+ <details>
+  <summary>Task5: Real-Time Sensor Data Acquisition and Transmission System>
 
+### What this project do?
+This theme interfece with the sensors to receive the data sensed, and sending this data to the FPGA and then with the GPIO pins transmit the outpuit results to an external device (example buzzer). In this project we will make a tochless bell using the VSDSquadronFM board and with a sensor named HC-SR04 ultrasonic sensor.
 
- 
+### Requierd software and hardware components
+**Hardware**
+* VSDSquadronFM FPGA board
+* HC-SR04 ultrasonic sensor
+* A buzzer
 
+**Software**
+* Virtual Ubuntu software(for programming)
+* Docklight
 
 
 
