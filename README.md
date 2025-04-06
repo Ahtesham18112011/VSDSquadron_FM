@@ -676,6 +676,49 @@ This theme interfece with the sensors to receive the data sensed, and sending th
 * Virtual Ubuntu software(for programming)
 * Docklight
 
+Analysis of the existing verilog code 
+
+The existing verilog code can be accessed [here](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/77683853b2e289a02d9d120a8bbb93b30b0d60f7/top%20(2).v). The top module integrates an ultrasonic sensor to measure distance, transmits the measured distance over UART, and controls RGB LEDs based on the distance.
+
+### Module declaration
+
+The mudule has several input and output ports:
+**Outputs**
+* led_red, led_blue, led_green: Control the RGB LEDs.
+* uarttx: UART transmission pin.
+* trig: Trigger output for the ultrasonic sensor.
+* buzzer: Buzzer signal.
+
+**Inputs**
+* uartx: UART receiver pin.
+* hw_clk: Hardware clock input.
+* echo: Echo signal from the ultrasonic sensor.
+
+### Internal Oscillator and counter 
+Uses a high-frequency oscillator (SB_HFOSC) to generate a 12MHz clock signal (int_osc). And generates a 9600 Hz clock (clk_9600) using a counter (cntr_9600) to divide the 12MHz clock.
+
+### Ultasonic senser signals
+Declares signals for distance measurement and sensor control:
+
+* `distanceRAW, distance_cm`: Raw and processed distance values.
+* `sensor_ready`: Indicates if the sensor is ready.
+* `measure`: Control signal for measurement.
+* `buzzer_signal`: Signal to control the buzzer.
+
+### Finite state machine to print distance_cn as ASCII
+
+Implements an FSM to convert the distance measurement (distance_cm) into ASCII characters and transmit via UART:
+States:
+* IDLE: Waits for sensor readiness.
+* DIGIT_4 to DIGIT_0: Converts each digit of the distance value to ASCII.
+* SEND_CR: Sends carriage return (CR).
+* SEND_LF: Sends line feed (LF).
+* DONE: Completes the transmission.
+
+
+
+
+
 
 
   
