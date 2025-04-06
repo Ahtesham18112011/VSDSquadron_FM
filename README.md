@@ -785,6 +785,34 @@ Follow the steps to test it in the software Docklight:
 2. Ensure the port through which the FM is connected in the device manager
 3. Then test with objects. Put the object or anything above the senser, the buzzer will beep when the object is kept at a feild of 5cm
 
+### Step5: Final documentation
+
+The project has 3 verilog codes including the top.v.This module integrates sensor data acquisition, signal processing, and communication to provide a comprehensive functionality for an FPGA-based system. And also a verilog named ultra_sound_sensor.v. This code sets up the HC-SR04 sensor to measure distance and trigger a buzzer if the measured distance is below a specific given vvoltage.
+
+The pins of the ultrasonic sensor can be connected like the following way:
+
+![Alt text](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/f3bd45dedf4555f63e673ebcabb1230cd9df8dea/Screenshot%20(113).png)
+
+The internal processing diagram can be made by this way
+
+![Alt text](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/226e757b519b9e607027ee589a2230a9f2b51540/Screenshot%20(114).png)
+
+Run the following steps to implement the codes:
+* Go to software Ubuntu and open the terminal. Ensure that the FM is connected by typing `lsusb`.
+* Then navigate to the folder by typing `cd <folder name>`.
+* Then type `make build` to build the binaries.
+* Then type `sudo make flash` to program the board.
+* Now you have succesfully implemented the code in the FM.
+
+Test it by by using a serial terminal likr Dochlight by the steps:
+1. Set the baud rate to 9600. And 1 stop bit
+2. Ensure the port through which the FM is connected in the device manager
+3. Then test with objects. Put the object or anything above the senser, the buzzer will beep when the object is kept at a feild of 5cm
+
+
+
+
+
 
 
 
