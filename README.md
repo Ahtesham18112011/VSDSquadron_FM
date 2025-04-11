@@ -1009,3 +1009,7 @@ You can place four DIP switches or four pushbuttons in the input side to control
 </details>
 
 ****************************************************************************************************************************************************************
+
+
+## Acknowledgments
+I would thanks to MR. [Kunal Ghosh](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/c3f163cc21c3779b0ebf307c8d70382f9013cbd1/Makefile%20(3).txt) to provide all the facilities in this internship and providing all the helps. Also i will also express my gratitude to Open-source developers of Yosys, NextPNR and Project Icestorm to providethe tools for free to everyone. 
