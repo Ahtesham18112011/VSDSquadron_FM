@@ -810,6 +810,7 @@ Test it by by using a serial terminal likr Dochlight by the steps:
 3. Then test with objects. Put the object or anything above the senser, the buzzer will beep when the object is kept at a feild of 5cm
 
 </details>
+
 ****************************************************************************************************************************************************************
 
 <details>
