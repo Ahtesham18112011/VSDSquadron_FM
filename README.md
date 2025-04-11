@@ -924,14 +924,20 @@ This is the verilog code for a BCD (Binary Coded Decimal) to 7 segment display c
 Each line assigns a 7-bit binary value to seg for a specific bcd value. These binary values control which of the 7 segments (a, b, c, d, e, f, g) of a 7-segment display are turned ON (0) or OFF (1).
 Example: 0 : seg = 7'b0000001;
 
-0: Condition when bcd is 0.
+**0**: Condition when bcd is 0.
 
-seg = 7'b0000001: Assigns the binary value 0000001 to seg.
+**seg** = 7'b0000001: Assigns the binary value 0000001 to seg.
 
-7'b: Indicates a 7-bit binary value.
+**7'b**: Indicates a 7-bit binary value.
 
-0000001: Turns ON segments a, b, c, d, e, f (to display "0") and turns OFF segment g.
+**0000001**: Turns ON segments a, b, c, d, e, f (to display "0") and turns OFF segment g.
 
+**Default case**
+
+                  default : seg = 7'b1111111; 
+                  
+`default`: Specifies the action to take when bcd does not match any of the defined conditions (i.e., values other than 0–9).
+`seg = 7'b1111111`: Turns OFF all segments of the 7-segment display.
   
 
   
