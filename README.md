@@ -92,7 +92,8 @@ These Opensource tools can be downloaded by the following command:
 This project blinks a blue LED on the RGB LED present on the FPGA board.
 
 ### Step 1: Understanding the verilog code
-This is the link of the verilog code for the glowing of blue led in a RGB led present in the FPGA board. [top.v}(https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/0b4610393f38f0cda1ccef06b74bc228fa1ae707/Task%201/top.v). 
+This is the link of the verilog code for the glowing of blue led in a RGB led present in the FPGA board. 
+[top.v](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/0b4610393f38f0cda1ccef06b74bc228fa1ae707/Task%201/top.v). 
 
 ## Analysis of the verilog code
   
