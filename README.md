@@ -939,12 +939,66 @@ Example: 0 : seg = 7'b0000001;
 `default`: Specifies the action to take when bcd does not match any of the defined conditions (i.e., values other than 0–9).
 
 `seg = 7'b1111111`: Turns OFF all segments of the 7-segment display.
-  
 
-  
-  
-   
 
-   
+**This code is typically used in digital circuits where numeric data needs to be displayed on a 7-segment display, such as digital clocks, counters, and calculators.**
+
+## Step3: Analysis of the PCF file
+
+
+    set_io bcd[0] 42
+    set_io bcd[1] 43
+    set_io bcd[2] 44
+    set_io bcd[3] 45
+    set_io seg[0] 46
+    set_io seg[1] 13
+    set_io seg[2] 48
+    set_io seg[3] 3
+    set_io seg[4] 4
+    set_io seg[5] 12
+    set_io seg[6] 26
+    
+This is the PCF file for the project. There are 4 input pins (bcd[0],bcd[1],bcd[2],bcd[3]) and seven output pins (seg[0],seg[1],seg[2],seg[3],seg[4],seg[5],seg[6]). You can set the GPIO pins by yourself.
+
+## Step3: Block and circuit diagrams.
+
+**Block diagram**
+  
+![Alt text](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/09084ffe8efd977a44b4cb9bcb718faea4c986ce/Screenshot%20(118).png)
+
+**Circuit diagram**
+
+![Alt text](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/09084ffe8efd977a44b4cb9bcb718faea4c986ce/Screenshot%20(119).png)
+
+## Step4: Implementing in the VSDSquadronFM
+
+
+> Make sure you have copied the following file:
+> top.v,
+> [Makefile](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/c3f163cc21c3779b0ebf307c8d70382f9013cbd1/Makefile%20(3).txt) and 
+> PCF file and put all these in the folder that is created in the folder VSDSquadron_FM named 7_segement.
+
+
+
+To implement the code on FM follow the following steps:
+* Go to software Ubuntu and open the terminal. Ensure that the FM is connected by typing `lsusb`.
+* Then navigate to the folder by typing `cd <folder name>`.
+* Then type `make build` to build the binaries.
+* Then type `sudo make flash` to program the board.
+* Now you have succesfully implemented the code in the FM.
+  
+## Step5: Testing and verification
+
+Connect the GPIO pins to the input pins of the 7 segment display as follows:
+
+|Pins| Header 2    | Header 3    |
+|---|-------------|-------------|
+| a | Row 1 Col 2 | Row 1 Col 3 |
+| b | Row 2 Col 2 | Row 2 Col 3 |
+| c | Row 1 Col 2 | Row 1 Col 3 |
+| d | Row 2 Col 2 | Row 2 Col 3 |   
+| e | Row 1 Col 2 | Row 1 Col 3 |
+| f | Row 2 Col 2 | Row 2 Col 3 |
+| g | Row 2 Col 2 | Row 2 Col 3 |   
 
 
