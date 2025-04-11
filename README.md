@@ -1002,3 +1002,5 @@ Connect the GPIO pins to the input pins of the 7 segment display as follows:
 | g | 26 |  
 
 You can place four DIP switches or four pushbuttons in the input side to control the decimal digits presented on the 7-segment-display. If you are getting the  decimal numbers , you have successfully completed this project.
+
+<img src="https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/3d5c31db2bd6333e3cde69f14cbbb12f9e636fba/ni7.png" alt="Description" width="500"/>.
