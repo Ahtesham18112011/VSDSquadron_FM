@@ -1012,4 +1012,4 @@ You can place four DIP switches or four pushbuttons in the input side to control
 
 
 ## Acknowledgments
-I would thanks to MR. [Kunal Ghosh](https://www.linkedin.com/in/kunal-ghosh-vlsisystemdesign-com-28084836/) to provide all the facilities in this internship and providing all the helps. Also i will also express my gratitude to Open-source developers of Yosys, NextPNR and Project Icestorm to providethe tools for free to everyone. 
+I would thanks to MR. [Kunal Ghosh](https://www.linkedin.com/in/kunal-ghosh-vlsisystemdesign-com-28084836/)for providing all the facilities in this internship and providing all the solutions to the helps. Also i will also express my gratitude to Open-source developers of Yosys, NextPNR and Project Icestorm to providethe tools for free to everyone. 
