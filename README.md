@@ -991,14 +991,14 @@ To implement the code on FM follow the following steps:
 
 Connect the GPIO pins to the input pins of the 7 segment display as follows:
 
-|Pins| Header 2    | Header 3    |
-|---|-------------|-------------|
-| a | Row 1 Col 2 | Row 1 Col 3 |
-| b | Row 2 Col 2 | Row 2 Col 3 |
-| c | Row 1 Col 2 | Row 1 Col 3 |
-| d | Row 2 Col 2 | Row 2 Col 3 |   
-| e | Row 1 Col 2 | Row 1 Col 3 |
-| f | Row 2 Col 2 | Row 2 Col 3 |
-| g | Row 2 Col 2 | Row 2 Col 3 |   
+|Pins of the 7 segment display| GPIO pins| 
+|---|-------------|
+| a | 46          |
+| b | 13            | 
+| c | 48 | 
+| d | 3 |   
+| e | 4 | 
+| f | 12 | 
+| g | 26 |  
 
 
