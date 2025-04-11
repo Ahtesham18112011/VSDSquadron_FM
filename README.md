@@ -809,7 +809,32 @@ Test it by by using a serial terminal likr Dochlight by the steps:
 2. Ensure the port through which the FM is connected in the device manager
 3. Then test with objects. Put the object or anything above the senser, the buzzer will beep when the object is kept at a feild of 5cm
 
+</details>
+****************************************************************************************************************************************************************
 
+<details>
+  <summary>Task6: BCD to 7-segment display converter</summary>
+
+### What this project do?
+A BCD to 7-segment converter, also known as a BCD to 7-segment decoder, is a circuit that converts a binary-coded decimal (BCD) input into a signal that can drive a 7-segment display. The 7-segment display is a common electronic display device used to show decimal digits. This project is used to implement verilog code in the VSDSquadronFM to display the decimal digits in the 7-segment-display.
+
+### Requierd software and hardware components
+**Hardware**
+* VSDSquadronFM
+* a common cathode 7-segment-display
+* breadboard
+* male to male and male to female jumper wires
+* 3V battery
+
+**Software**
+* Only the virtual Ubuntu software
+
+## Step1: Analysis of the existing verilog code 
+This is the verilog code for a BCD (Binary Coded Decimal) to 7 segment display converter. [top.v](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/97211f8b7b507d75259ca82fd385ca6edf626eda/7segment.png)
+
+**Analysis of the verilog code**
+    
+        ![Alt text](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/97211f8b7b507d75259ca82fd385ca6edf626eda/7segment.png)
 
 
 
