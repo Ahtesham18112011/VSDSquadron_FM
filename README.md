@@ -835,8 +835,9 @@ This is the verilog code for a BCD (Binary Coded Decimal) to 7 segment display c
 
 **Analysis of the verilog code**
 
-       //Verilog module.
-       module segment7(
+       //This is the verilog module for a BCD to seven segment dispalay decoder.
+       //This module takes a 4 bit BCD input and converts it to a 7 segment display output.
+       module top(
        bcd,
        seg
        );
@@ -867,14 +868,68 @@ This is the verilog code for a BCD (Binary Coded Decimal) to 7 segment display c
     
       endmodule
 
+**Module**
+  module top(
+       bcd,
+       seg
+      );
+      
+**module**: A keyword in Verilog used to define a module (basic building block in Verilog).
+
+**top**: The name of the module.
+
+**(bcd, seg)**: The input and output ports of the module. Here, bcd is the input, and seg is the output.
+
+**Inputs and outputs**
+
+          input [3:0] bcd;
+          output [6:0] seg;
+          reg [6:0] seg;
+
+**input [3:0] bcd**: Declares bcd as a 4-bit input. It represents a Binary Coded Decimal (BCD) digit (values 0–9).`[3:0]`: Specifies that bcd is 4 bits wide, with indices ranging from bit 3 to bit 0.
+
+**output [6:0] seg**: Declares seg as a 7-bit output. It represents the 7 segments (a, b, c, d, e, f, g) of a 7-segment display.
+
+**reg [6:0] seg**: Declares seg as a 7-bit register type. Since seg is assigned inside an always block, it must be declared as a reg.
+
+**Always block**
+
+        always @(bcd)
+
+**always**: A keyword in Verilog used to define a procedural block that executes whenever a specified event occurs.
+
+**@(bcd)**: Specifies that the always block will execute whenever there is any change in the bcd input.
 
 
+**Case statement**
 
+             case (bcd) //case statement
+            
+**case (bcd)**: A case construct is used to define multiple conditions. Here, the value of bcd determines which block of code will execute.
 
+**case conditions**
 
+                 0 : seg = 7'b0000001;
+                 1 : seg = 7'b1001111;
+                 2 : seg = 7'b0010010;
+                 3 : seg = 7'b0000110;
+                 4 : seg = 7'b1001100;
+                 5 : seg = 7'b0100100;
+                 6 : seg = 7'b0100000;
+                 7 : seg = 7'b0001111;
+                 8 : seg = 7'b0000000;
+                 9 : seg = 7'b0000100;
 
+Each line assigns a 7-bit binary value to seg for a specific bcd value. These binary values control which of the 7 segments (a, b, c, d, e, f, g) of a 7-segment display are turned ON (0) or OFF (1).
+Example: 0 : seg = 7'b0000001;
 
+0: Condition when bcd is 0.
 
+seg = 7'b0000001: Assigns the binary value 0000001 to seg.
+
+7'b: Indicates a 7-bit binary value.
+
+0000001: Turns ON segments a, b, c, d, e, f (to display "0") and turns OFF segment g.
 
   
 
