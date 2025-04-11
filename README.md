@@ -834,9 +834,38 @@ A BCD to 7-segment converter, also known as a BCD to 7-segment decoder, is a cir
 This is the verilog code for a BCD (Binary Coded Decimal) to 7 segment display converter. [top.v](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/97211f8b7b507d75259ca82fd385ca6edf626eda/7segment.png)
 
 **Analysis of the verilog code**
-    
-        ![Alt text](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/97211f8b7b507d75259ca82fd385ca6edf626eda/7segment.png)
 
+       //Verilog module.
+       module segment7(
+       bcd,
+       seg
+       );
+     
+       //Declare inputs,outputs and internal variables.
+       input [3:0] bcd;
+       output [6:0] seg;
+       reg [6:0] seg;
+
+       //always block for converting bcd digit into 7 segment format
+       always @(bcd)
+        begin
+          case (bcd) //case statement
+              0 : seg = 7'b0000001;
+              1 : seg = 7'b1001111;
+              2 : seg = 7'b0010010;
+              3 : seg = 7'b0000110;
+              4 : seg = 7'b1001100;
+              5 : seg = 7'b0100100;
+              6 : seg = 7'b0100000;
+              7 : seg = 7'b0001111;
+              8 : seg = 7'b0000000;
+              9 : seg = 7'b0000100;
+               //switch off 7 segment character when the bcd digit is not a decimal number.
+               default : seg = 7'b1111111; 
+           endcase
+      end
+    
+      endmodule
 
 
 
