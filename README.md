@@ -92,7 +92,7 @@ These Opensource tools can be downloaded by the following command:
 This project blinks a blue LED on the RGB LED present on the FPGA board.
 
 ### Step 1: Understanding the verilog code
-This is the link of the verilog code for the glowing of blue led in a RGB led present in the FPGA board. [top.v](https://github.com/Ahtesham18112011/VSDSquadron_FM/commit/c6511d8ea1d69d50770b938977da7150673a1d7a). 
+This is the link of the verilog code for the glowing of blue led in a RGB led present in the FPGA board. [top.v(https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/0b4610393f38f0cda1ccef06b74bc228fa1ae707/Task%201/top.v). 
 
 ## Analysis of the verilog code
   
@@ -160,7 +160,7 @@ This verilog code for the FM allows it to glow a blue light in the RGB led in a 
 
   ### Step 2: Creating the PCF File
   
-  This is the PCF file. [VSDSquadronFM.pcf](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/e42b59be2d586c9407dcfc91577753fcdb8994a9/VSDSquadronFM.pcf). A PCF(Physical Constraint File) is a file which is used to instruct the FPGA to where it have to send the output, for example in this case of RGB LED the PCF file is used to instruct the FPGA to the RGB LED pins.
+  This is the PCF file. [VSDSquadronFM.pcf](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/0b4610393f38f0cda1ccef06b74bc228fa1ae707/Task%201/VSDSquadronFM.pcf). A PCF(Physical Constraint File) is a file which is used to instruct the FPGA to where it have to send the output, for example in this case of RGB LED the PCF file is used to instruct the FPGA to the RGB LED pins.
 
 
   ## Analysis of the connection of the PCF file
@@ -202,7 +202,7 @@ According to the given [Datasheet](https://github.com/Ahtesham18112011/VSDSquadr
 
 1. Connect the board with the computer/laptop with a c type USB cable as described in the datasheet. Ensuring the FTDI connection. and type the command ```lsusb``` in the terminal of software Ubuntu. After typing this commmand you will see ”Future Technology Devices International” text in the terminal, it means the FPGA board is connected.
 
-2. Make one more file which is called a Makefile.[Makefile](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/16f3657047eebb2d53e02e451deed799442105de/Makefile.txt).
+2. Make one more file which is called a Makefile.[Makefile](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/0b4610393f38f0cda1ccef06b74bc228fa1ae707/Task%201/Makefile.txt).
 
 3. Go to the software Ubuntu and in the terminal locate the file where you have made your PCF file,Verilog file and the Makefile. by pressing `cd <name of file>`
 
