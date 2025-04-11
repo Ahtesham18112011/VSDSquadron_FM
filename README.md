@@ -869,10 +869,11 @@ This is the verilog code for a BCD (Binary Coded Decimal) to 7 segment display c
       endmodule
 
 **Module**
-  module top(
-       bcd,
-       seg
-      );
+
+                 module top(
+                 bcd,
+                 seg
+                 );
       
 **module**: A keyword in Verilog used to define a module (basic building block in Verilog).
 
@@ -882,9 +883,9 @@ This is the verilog code for a BCD (Binary Coded Decimal) to 7 segment display c
 
 **Inputs and outputs**
 
-          input [3:0] bcd;
-          output [6:0] seg;
-          reg [6:0] seg;
+                input [3:0] bcd;
+                output [6:0] seg;
+                reg [6:0] seg;
 
 **input [3:0] bcd**: Declares bcd as a 4-bit input. It represents a Binary Coded Decimal (BCD) digit (values 0–9).`[3:0]`: Specifies that bcd is 4 bits wide, with indices ranging from bit 3 to bit 0.
 
@@ -894,7 +895,7 @@ This is the verilog code for a BCD (Binary Coded Decimal) to 7 segment display c
 
 **Always block**
 
-        always @(bcd)
+                 always @(bcd)
 
 **always**: A keyword in Verilog used to define a procedural block that executes whenever a specified event occurs.
 
@@ -903,7 +904,7 @@ This is the verilog code for a BCD (Binary Coded Decimal) to 7 segment display c
 
 **Case statement**
 
-             case (bcd) //case statement
+                 case (bcd) //case statement
             
 **case (bcd)**: A case construct is used to define multiple conditions. Here, the value of bcd determines which block of code will execute.
 
