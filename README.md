@@ -937,6 +937,7 @@ Example: 0 : seg = 7'b0000001;
                   default : seg = 7'b1111111; 
                   
 `default`: Specifies the action to take when bcd does not match any of the defined conditions (i.e., values other than 0–9).
+
 `seg = 7'b1111111`: Turns OFF all segments of the 7-segment display.
   
 
