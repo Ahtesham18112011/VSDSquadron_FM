@@ -1014,7 +1014,16 @@ You can place four DIP switches or four pushbuttons in the input side to control
 
 <img src="https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/3d5c31db2bd6333e3cde69f14cbbb12f9e636fba/ni7.png" alt="Description" width="500"/>.
 
+
+## Demonstration video
+
+
+
 </details>
+
+
+https://github.com/user-attachments/assets/abe71e14-6b3b-40e3-92d4-d96ab48b9233
+
 
 ****************************************************************************************************************************************************************
 
