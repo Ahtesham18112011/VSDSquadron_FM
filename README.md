@@ -812,7 +812,11 @@ Test it by by using a serial terminal likr Dochlight by the steps:
 
 ### Demo video
 
-[Watch the demo video](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/main/Tochless%20bell.mp4)
+
+
+
+https://github.com/user-attachments/assets/84f770ee-fed0-4740-8fa1-7ecce7d3c876
+
 
 </details>
 
