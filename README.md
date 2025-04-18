@@ -810,6 +810,9 @@ Test it by by using a serial terminal likr Dochlight by the steps:
 2. Ensure the port through which the FM is connected in the device manager
 3. Then test with objects. Put the object or anything above the senser, the buzzer will beep when the object is kept at a feild of 5cm
 
+### Demo video
+https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/70272a95cc15458f41cb7f8d94852f439b7e13e8/Tochless%20bell.mp4
+
 </details>
 
 ****************************************************************************************************************************************************************
