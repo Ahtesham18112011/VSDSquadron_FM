@@ -812,11 +812,7 @@ Test it by by using a serial terminal likr Dochlight by the steps:
 
 ### Demo video
 
-<video width="640" height="360" controls>
-  <source src="https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/70272a95cc15458f41cb7f8d94852f439b7e13e8/Tochless%20bell.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
+[Watch the demo video](https://github.com/Ahtesham18112011/VSDSquadron_FM/blob/main/Tochless%20bell.mp4)
 
 </details>
 
